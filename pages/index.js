@@ -199,8 +199,17 @@ const HomePage = () => {
 
         <div className="latest-article">
           <div className="container-fluid d-flex justify-content-center">
-              <div  style={{ width: "80%"}}>
-              <h1 style={{color: '#111111', fontSize:'28px',fontWeight:'600', fontFamily: 'Montserrat'}}>Latest Article</h1>
+            <div style={{ width: "80%" }}>
+              <h1
+                style={{
+                  color: "#111111",
+                  fontSize: "28px",
+                  fontWeight: "600",
+                  fontFamily: "Montserrat",
+                }}
+              >
+                Latest Article
+              </h1>
 
               <div
                 className="d-flex flex-wrap  align-items-center "
@@ -219,7 +228,16 @@ const HomePage = () => {
                       height: "60%",
                       width: "auto",
                     }}
-                  ></div>
+                  >
+                    <div class="entry-category">
+                      <a
+                        href="https://demo.mekshq.com/gridlove/?cat=2"
+                        class="gridlove-cat gridlove-cat-2"
+                      >
+                        Travel
+                      </a>{" "}
+                    </div>
+                  </div>
                   <div className="box-inner-p">
                     <div className="box-inner-ellipsis">
                       <div
