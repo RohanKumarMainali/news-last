@@ -253,9 +253,8 @@ const HomePage = () => {
                             kangaroo...
                           </a>
                         </h2>
-                      </div>
-                    </div>
-                    <div className="entry-meta">
+
+                        <div className="entry-meta">
                       <div className="meta-item meta-author">
                         <div className="coauthors">
                           <span className="vcard author">
@@ -285,6 +284,11 @@ const HomePage = () => {
                         </span>
                       </div>
                     </div>
+
+
+                      </div>
+                    </div>
+                   
                   </div>
                 </div>
                 <div
@@ -325,9 +329,8 @@ const HomePage = () => {
                             kangaroo...
                           </a>
                         </h2>
-                      </div>
-                    </div>
-                    <div className="entry-meta">
+
+                        <div className="entry-meta">
                       <div className="meta-item meta-author">
                         <div className="coauthors">
                           <span className="vcard author">
@@ -357,6 +360,11 @@ const HomePage = () => {
                         </span>
                       </div>
                     </div>
+
+
+                      </div>
+                    </div>
+                    
                   </div>
                 </div>
                 <div
@@ -397,9 +405,7 @@ const HomePage = () => {
                             kangaroo...
                           </a>
                         </h2>
-                      </div>
-                    </div>
-                    <div className="entry-meta">
+                        <div className="entry-meta">
                       <div className="meta-item meta-author">
                         <div className="coauthors">
                           <span className="vcard author">
@@ -429,6 +435,9 @@ const HomePage = () => {
                         </span>
                       </div>
                     </div>
+                      </div>
+                    </div>
+                   
                   </div>
                 </div>
               </div>
