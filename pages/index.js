@@ -220,7 +220,7 @@ const HomePage = () => {
                   className=" article-container me-4"
                 >
                   <div
-                    className="article-img"
+                    className="position-relative article-img"
                     style={{
                       backgroundImage: `url(https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_23-370x150.jpg)`,
                       backgroundSize: "cover",
@@ -292,7 +292,7 @@ const HomePage = () => {
                   className=" article-container me-4"
                 >
                   <div
-                    className="article-img"
+                    className="article-img position-relative"
                     style={{
                       backgroundImage: `url(https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_08-370x150.jpg)`,
                       backgroundSize: "cover",
@@ -300,7 +300,16 @@ const HomePage = () => {
                       height: "60%",
                       width: "auto",
                     }}
-                  ></div>
+                  >
+                    <div class="entry-category">
+                      <a
+                        href="https://demo.mekshq.com/gridlove/?cat=2"
+                        class="gridlove-cat gridlove-cat-2"
+                      >
+                        Travel
+                      </a>{" "}
+                    </div>
+                  </div>
                   <div className="box-inner-p">
                     <div className="box-inner-ellipsis">
                       <div
@@ -355,7 +364,7 @@ const HomePage = () => {
                   className=" article-container me-4"
                 >
                   <div
-                    className="article-img"
+                    className="article-img position-relative"
                     style={{
                       backgroundImage: `url(https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_04-370x150.jpg)`,
                       backgroundSize: "cover",
@@ -363,7 +372,16 @@ const HomePage = () => {
                       height: "60%",
                       width: "auto",
                     }}
-                  ></div>
+                  >
+                    <div class="entry-category">
+                      <a
+                        href="https://demo.mekshq.com/gridlove/?cat=2"
+                        class="gridlove-cat gridlove-cat-2"
+                      >
+                        Travel
+                      </a>{" "}
+                    </div>
+                  </div>
                   <div className="box-inner-p">
                     <div className="box-inner-ellipsis">
                       <div
