@@ -32,9 +32,11 @@ function Navbar() {
       : setToggleIcon(`${Style.hamburger}`);
   };
 
+
   return (
+
     <>
-       <Head>
+      <Head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
@@ -61,29 +63,29 @@ function Navbar() {
           <div className={Style.right}>
             <ul className={active}>
               <li className={Style.item}>
-                <Link  href="/" onClick={navToggle} smooth={true}>
-                 <span className="text-light"> Home</span>
+                <Link href="/" onClick={navToggle} smooth={true}>
+                  <span className="text-light"> Home</span>
                 </Link>
               </li>
-             
+
               <li className={Style.item}>
-                <Link href="/blogs"onClick={navToggle} smooth={true}>
-                <span className="text-light"> Home</span>
-                </Link>
-              </li>
-              <li className={Style.item}>
-                <Link href="/Portfolio"onClick={navToggle} smooth={true}>
-                <span className="text-light"> Home</span>
+                <Link href="/blogs" onClick={navToggle} smooth={true}>
+                  <span className="text-light"> Home</span>
                 </Link>
               </li>
               <li className={Style.item}>
-                <Link href="/gallery"onClick={navToggle} smooth={true}>
-                <span className="text-light"> Home</span>
+                <Link href="/Portfolio" onClick={navToggle} smooth={true}>
+                  <span className="text-light"> Home</span>
+                </Link>
+              </li>
+              <li className={Style.item}>
+                <Link href="/gallery" onClick={navToggle} smooth={true}>
+                  <span className="text-light"> Home</span>
                 </Link>
               </li>
               <li className={Style.item}>
                 <Link href="/contact" onClick={navToggle} smooth={true}>
-                <span className="text-light"> Home</span>
+                  <span className="text-light"> Home</span>
                 </Link>
               </li>
             </ul>

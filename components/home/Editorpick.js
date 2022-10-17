@@ -14,28 +14,22 @@ const Editorpick = () => {
                     <div className="col-lg-8 col-md-12 col-sm-12 layout-combo">
                         <article className="gridlove-post d-flex gridlove-post-b gridlove-box  post-174 post type-post status-publish format-video has-post-thumbnail hentry category-entertainment post_format-post-format-video">
                             <div className="entry-image">
-                                <a
-                                    href="https://demo.mekshq.com/gridlove/?p=174"
-                                    title="Are rock concerts really coming back into fashion?"
-                                >
-                                    <img
-                                        width={385}
-                                        height={300}
-                                        src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_38-385x300.jpg"
-                                        className="attachment-gridlove-b8 size-gridlove-b8 wp-post-image"
-                                        alt=""
-                                        loading="lazy"
-                                    />
-                                </a>
+
+                                <img
+                                    width={385}
+                                    height={300}
+                                    src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_38-385x300.jpg"
+                                    className="attachment-gridlove-b8 size-gridlove-b8 wp-post-image"
+                                    alt=""
+                                    loading="lazy"
+                                />
                             </div>
                             <div className="box-inner-ptbr box-col-b entry-sm-overlay">
                                 <div className="box-inner-ellipsis">
                                     <div style={{ margin: 0, padding: 0, border: 0 }}>
-                                        <span style={{ fontSize: '10px', borderRadius: '22px' }} className='text-light px-2 py-1 bg-warning'>ENTERTAINMENT</span>
+                                        <span style={{ fontSize: '10px', borderRadius: '22px' }} className='text-light  px-2 py-1 bg-warning'>ENTERTAINMENT</span>
                                         <h2 className="entry-title h3 pt-2">
-                                            <a href="https://demo.mekshq.com/gridlove/?p=174">
-                                                Are rock concerts really coming back into fashion?
-                                            </a>
+                                            Are rock concerts really coming back into fashion?
                                         </h2>
                                         <div className="entry-content">
                                             <p>
@@ -51,17 +45,15 @@ const Editorpick = () => {
                                         <div className="coauthors">
                                             <span className="vcard author">
                                                 <span className="fn">
-                                                    <a href="https://demo.mekshq.com/gridlove?author_name=meks1">
-                                                        <img
-                                                            alt=""
-                                                            src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-24x24.jpg"
-                                                            className="avatar avatar-24 photo"
-                                                            height={24}
-                                                            width={24}
-                                                            loading="lazy"
-                                                        />
-                                                        Patricia Callahan
-                                                    </a>
+                                                    <img
+                                                        alt=""
+                                                        src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-24x24.jpg"
+                                                        className="avatar avatar-24 photo"
+                                                        height={24}
+                                                        width={24}
+                                                        loading="lazy"
+                                                    />
+                                                    Patricia Callahan
                                                 </span>
                                             </span>
                                         </div>
@@ -75,46 +67,39 @@ const Editorpick = () => {
                     <div className="col-lg-4 col-md-6 col-sm-12 layout-combo">
                         <article className="gridlove-post gridlove-post-d gridlove-box  post-182 post type-post status-publish format-standard has-post-thumbnail hentry category-technology">
                             <div className="entry-image">
-                                <a
-                                    href="https://demo.mekshq.com/gridlove/?p=182"
-                                    title="The world needs true geniuses now more than ever"
-                                >
-                                    <img
-                                        width={370}
-                                        height={300}
-                                        src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_24-370x300.jpg"
-                                        className="attachment-gridlove-d4 size-gridlove-d4 wp-post-image"
-                                        alt=""
-                                        loading="lazy"
-                                    />
-                                </a>
+                                <img
+                                    width={370}
+                                    height={300}
+                                    src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_24-370x300.jpg"
+                                    className="attachment-gridlove-d4 size-gridlove-d4 wp-post-image"
+                                    alt=""
+                                    loading="lazy"
+                                />
                             </div>
-                            <div style={{position:'absolute' ,top:'10px'}} className="right-inner-head px-4">
+                            <div style={{ position: 'absolute', top: '10px' }} className="right-inner-head px-4">
                                 <span style={{ fontSize: '10px', borderRadius: '22px' }} className='text-light px-2 py-1 bg-warning'>ENTERTAINMENT</span>
                                 <p className='mt-2 fw-bold text-light h5'>The world needs true geniuses now more than ever</p>
                             </div>
-                            <div style={{position:'absolute' ,bottom:'30px'}} className="entry-meta mx-4">
-                                    <div className="meta-item meta-author">
-                                        <div className="coauthors">
-                                            <span className="vcard author">
-                                                <span className="fn">
-                                                    <a href="https://demo.mekshq.com/gridlove?author_name=meks1">
-                                                        <img
-                                                            alt=""
-                                                            src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-24x24.jpg"
-                                                            className="avatar avatar-24 photo"
-                                                            height={24}
-                                                            width={24}
-                                                            loading="lazy"
-                                                        />
-                                                        Patricia Callahan
-                                                    </a>
-                                                </span>
+                            <div style={{ position: 'absolute', bottom: '30px' }} className="entry-meta mx-4">
+                                <div className="meta-item meta-author">
+                                    <div className="coauthors">
+                                        <span className="vcard author">
+                                            <span className="fn">
+                                                <img
+                                                    alt=""
+                                                    src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-24x24.jpg"
+                                                    className="avatar avatar-24 photo"
+                                                    height={24}
+                                                    width={24}
+                                                    loading="lazy"
+                                                />
+                                                Patricia Callahan
                                             </span>
-                                        </div>
+                                        </span>
                                     </div>
-                                    <div className="meta-item meta-views">38,671 views</div>
                                 </div>
+                                <div className="meta-item meta-views">38,671 views</div>
+                            </div>
                         </article>
                     </div>
 
@@ -128,14 +113,14 @@ const Editorpick = () => {
                                     <div >
                                         <div className="entry-category ">
                                             <a
-                                                href="https://demo.mekshq.com/gridlove/?cat=73"
+                                                href="#"
                                                 className="gridlove-cat gridlove-cat-73"
                                             >
                                                 Technology
                                             </a>
                                             <a
-                                                href="https://demo.mekshq.com/gridlove/?cat=2"
-                                                className="gridlove-cat gridlove-cat-2"
+                                                href="#"
+                                                className="gridlove-cat gridlove-cat-73"
                                             >
                                                 Travel
                                             </a>{" "}
@@ -160,25 +145,20 @@ const Editorpick = () => {
                                         <div className="coauthors">
                                             <span className="vcard author">
                                                 <span className="fn">
-                                                    <a href="https://demo.mekshq.com/gridlove?author_name=meks2">
-                                                        <img
-                                                            alt=""
-                                                            src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_4_1473333956-24x24.jpg"
-                                                            className="avatar avatar-24 photo"
-                                                            height={24}
-                                                            width={24}
-                                                            loading="lazy"
-                                                        />
-                                                        Lisa Scholfield
-                                                    </a>
+
+                                                    <img
+                                                        alt=""
+                                                        src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_4_1473333956-24x24.jpg"
+                                                        className="avatar avatar-24 photo"
+                                                        height={24}
+                                                        width={24}
+                                                        loading="lazy"
+                                                    />
+                                                    Lisa Scholfield
+
                                                 </span>
                                             </span>
                                         </div>
-                                    </div>
-                                    <div className="meta-item meta-comments">
-                                        <a href="https://demo.mekshq.com/gridlove/?p=183#respond">
-                                            Add comment
-                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -187,35 +167,31 @@ const Editorpick = () => {
                     <div className="col-lg-4 col-md-6 col-sm-12 layout-combo">
                         <article className="gridlove-post gridlove-post-a gridlove-box  post-201 post type-post status-publish format-standard has-post-thumbnail hentry category-lifestyle">
                             <div className="entry-image">
-                                <a
-                                    href="https://demo.mekshq.com/gridlove/?p=201"
-                                    title="If you’re truly happy and you know it let it show"
-                                >
-                                    <img
-                                        width={370}
-                                        height={150}
-                                        src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_01-370x150.jpg"
-                                        className="attachment-gridlove-a4 size-gridlove-a4 wp-post-image"
-                                        alt=""
-                                        loading="lazy"
-                                    />
-                                </a>
+
+                                <img
+                                    width={370}
+                                    height={150}
+                                    src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_01-370x150.jpg"
+                                    className="attachment-gridlove-a4 size-gridlove-a4 wp-post-image"
+                                    alt=""
+                                    loading="lazy"
+                                />
                                 <div className="entry-category">
                                     <a
-                                        href="https://demo.mekshq.com/gridlove/?cat=3"
+                                        href="#"
                                         className="gridlove-cat gridlove-cat-3"
                                     >
                                         Lifestyle
-                                    </a>{" "}
+                                    </a>
                                 </div>
                             </div>
                             <div className="box-inner-p">
                                 <div className="box-inner-ellipsis">
                                     <div style={{ margin: 0, padding: 0, border: 0 }}>
                                         <h2 className="entry-title h3">
-                                            <a href="https://demo.mekshq.com/gridlove/?p=201">
-                                                If you’re truly happy and you know it let it show
-                                            </a>
+
+                                            If you’re truly happy and you know it let it show
+
                                         </h2>
                                     </div>
                                 </div>
@@ -224,17 +200,15 @@ const Editorpick = () => {
                                         <div className="coauthors">
                                             <span className="vcard author">
                                                 <span className="fn">
-                                                    <a href="https://demo.mekshq.com/gridlove?author_name=meks3">
-                                                        <img
-                                                            alt=""
-                                                            src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_5_1473333966-24x24.jpg"
-                                                            className="avatar avatar-24 photo"
-                                                            height={24}
-                                                            width={24}
-                                                            loading="lazy"
-                                                        />
-                                                        Joana Bergstein
-                                                    </a>
+                                                    <img
+                                                        alt=""
+                                                        src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_5_1473333966-24x24.jpg"
+                                                        className="avatar avatar-24 photo"
+                                                        height={24}
+                                                        width={24}
+                                                        loading="lazy"
+                                                    />
+                                                    Joana Bergstein
                                                 </span>
                                             </span>
                                         </div>

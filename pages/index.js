@@ -16,6 +16,7 @@ import "swiper/css";
 import Editorpick from "../components/home/Editorpick";
 
 const HomePage = () => {
+
   return (
     <>
       <Head>
@@ -85,33 +86,7 @@ const HomePage = () => {
                   className="entry-meta d-flex"
                   style={{ color: "rgba(255, 255, 255, .8)" }}
                 >
-                  <div className="meta-item meta-author d-flex">
-                    <div className="coauthors">
-                      <span className="vcard author">
-                        <span className="fn">
-                          <a
-                            href="https://demo.mekshq.com/gridlove?author_name=meks2"
-                            className="d-flex mr-10"
-                          >
-                            <img
-                              alt=""
-                              src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_4_1473333956-24x24.jpg"
-                              className="avatar avatar-24 photo"
-                              loading="lazy"
-                              width={24}
-                              height={24}
-                            />
-                            Lisa Scholfield
-                          </a>
-                        </span>
-                      </span>
-                    </div>
-                  </div>
-                  <div className="meta-item meta-comments">
-                    <a href="https://demo.mekshq.com/gridlove/?p=192#comments">
-                      4 comments
-                    </a>
-                  </div>
+
                 </div>
               </div>
             </div>
@@ -162,33 +137,7 @@ const HomePage = () => {
                   className="entry-meta d-flex"
                   style={{ color: "rgba(255, 255, 255, .8)" }}
                 >
-                  <div className="meta-item meta-author d-flex">
-                    <div className="coauthors">
-                      <span className="vcard author">
-                        <span className="fn">
-                          <a
-                            href="https://demo.mekshq.com/gridlove?author_name=meks2"
-                            className="d-flex mr-10"
-                          >
-                            <img
-                              alt=""
-                              src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_4_1473333956-24x24.jpg"
-                              className="avatar avatar-24 photo"
-                              loading="lazy"
-                              width={24}
-                              height={24}
-                            />
-                            Lisa Scholfield
-                          </a>
-                        </span>
-                      </span>
-                    </div>
-                  </div>
-                  <div className="meta-item meta-comments">
-                    <a href="https://demo.mekshq.com/gridlove/?p=192#comments">
-                      4 comments
-                    </a>
-                  </div>
+
                 </div>
               </div>
             </div>
@@ -198,9 +147,10 @@ const HomePage = () => {
         {/* latest article   */}
 
         <div className="latest-article">
-          <div className="container-fluid d-flex justify-content-center">
-            <div style={{ width: "80%" }}>
+          <div className="container">
+            <div >
               <h1
+                className="mt-4"
                 style={{
                   color: "#111111",
                   fontSize: "28px",
@@ -211,234 +161,174 @@ const HomePage = () => {
                 Latest Article
               </h1>
 
-              <div
-                className="d-flex flex-wrap  align-items-center "
-                style={{ width: "100%", justifyContent: "space-between" }}
-              >
-                <div
-                  style={{ width: "30%", height: "400px" }}
-                  className=" article-container me-4"
-                >
-                  <div
-                    className="position-relative article-img"
-                    style={{
-                      backgroundImage: `url(https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_23-370x150.jpg)`,
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                      height: "60%",
-                      width: "auto",
-                    }}
-                  >
-                    <div class="entry-category">
-                      <a
-                        href="https://demo.mekshq.com/gridlove/?cat=2"
-                        class="gridlove-cat gridlove-cat-2"
-                      >
-                        Travel
-                      </a>{" "}
-                    </div>
-                  </div>
-                  <div className="box-inner-p">
-                    <div className="box-inner-ellipsis">
-                      <div
-                        style={{
-                          margin: "0px",
-                          padding: "0px",
-                          border: "0px none",
-                        }}
-                      >
-                        <h2 className="entry-title h3">
-                          <a href="https://demo.mekshq.com/gridlove/?p=167">
-                            Australia is the ultimate place in the world for
-                            kangaroo...
-                          </a>
-                        </h2>
+              <div className="row" >
+                <div className="col-lg-4 col-md-6 col-sm-12 layout-combo">
+                  <article className="gridlove-post gridlove-post-a gridlove-box  post-201 post type-post status-publish format-standard has-post-thumbnail hentry category-lifestyle">
+                    <div className="entry-image">
 
-                        <div className="entry-meta">
-                      <div className="meta-item meta-author">
-                        <div className="coauthors">
-                          <span className="vcard author">
-                            <span className="fn">
-                              <a href="https://demo.mekshq.com/gridlove?author_name=meks2">
-                                <img
-                                  alt=""
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_4_1473333956-24x24.jpg"
-                                  className="avatar avatar-24 photo"
-                                  loading="lazy"
-                                  width={24}
-                                  height={24}
-                                />
-                                Lisa Scholfield
-                              </a>
-                            </span>
-                          </span>
+                      <img
+                        width={370}
+                        height={150}
+                        src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_23-370x150.jpg"
+                        className="attachment-gridlove-a4 size-gridlove-a4 wp-post-image"
+                        alt=""
+                        loading="lazy"
+                      />
+                      <div className="entry-category">
+                        <a
+                          href="#"
+                          className="gridlove-cat gridlove-cat-3"
+                        >
+                          Lifestyle
+                        </a>
+                      </div>
+                    </div>
+                    <div className="box-inner-p">
+                      <div className="box-inner-ellipsis">
+                        <div style={{ margin: 0, padding: 0, border: 0 }}>
+                          <h2 className="entry-title h3">
+
+                            If you’re truly happy and you know it let it show
+
+                          </h2>
                         </div>
                       </div>
-                      <div className="meta-item meta-date">
-                        <span className="updated d-flex">
-                          <li
-                            class="bi bi-calendar"
-                            style={{ listStyle: "none" }}
-                          ></li>
-                          1 month ago
-                        </span>
+                      <div className="entry-meta">
+                        <div className="meta-item meta-author">
+                          <div className="coauthors">
+                            <span className="vcard author">
+                              <span className="fn">
+                                <img
+                                  alt=""
+                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_5_1473333966-24x24.jpg"
+                                  className="avatar avatar-24 photo"
+                                  height={24}
+                                  width={24}
+                                  loading="lazy"
+                                />
+                                Joana Bergstein
+                              </span>
+                            </span>
+                          </div>
+                        </div>
+                        <div className="meta-item meta-date">
+                          <span className="updated">1 month ago</span>
+                        </div>
                       </div>
                     </div>
-
-
-                      </div>
-                    </div>
-                   
-                  </div>
+                  </article>
                 </div>
-                <div
-                  style={{ width: "30%", height: "400px" }}
-                  className=" article-container me-4"
-                >
-                  <div
-                    className="article-img position-relative"
-                    style={{
-                      backgroundImage: `url(https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_08-370x150.jpg)`,
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                      height: "60%",
-                      width: "auto",
-                    }}
-                  >
-                    <div class="entry-category">
-                      <a
-                        href="https://demo.mekshq.com/gridlove/?cat=2"
-                        class="gridlove-cat gridlove-cat-2"
-                      >
-                        Travel
-                      </a>{" "}
-                    </div>
-                  </div>
-                  <div className="box-inner-p">
-                    <div className="box-inner-ellipsis">
-                      <div
-                        style={{
-                          margin: "0px",
-                          padding: "0px",
-                          border: "0px none",
-                        }}
-                      >
-                        <h2 className="entry-title h3">
-                          <a href="https://demo.mekshq.com/gridlove/?p=167">
-                            Australia is the ultimate place in the world for
-                            kangaroo...
-                          </a>
-                        </h2>
+                <div className="col-lg-4 col-md-6 col-sm-12 layout-combo">
+                  <article className="gridlove-post gridlove-post-a gridlove-box  post-201 post type-post status-publish format-standard has-post-thumbnail hentry category-lifestyle">
+                    <div className="entry-image">
 
-                        <div className="entry-meta">
-                      <div className="meta-item meta-author">
-                        <div className="coauthors">
-                          <span className="vcard author">
-                            <span className="fn">
-                              <a href="https://demo.mekshq.com/gridlove?author_name=meks2">
-                                <img
-                                  alt=""
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_4_1473333956-24x24.jpg"
-                                  className="avatar avatar-24 photo"
-                                  loading="lazy"
-                                  width={24}
-                                  height={24}
-                                />
-                                Lisa Scholfield
-                              </a>
-                            </span>
-                          </span>
+                      <img
+                        width={370}
+                        height={150}
+                        src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_39-370x150.jpg"
+                        className="attachment-gridlove-a4 size-gridlove-a4 wp-post-image"
+                        alt=""
+                        loading="lazy"
+                      />
+                      <div className="entry-category">
+                        <a
+                          href="#"
+                          className="gridlove-cat gridlove-cat-3"
+                        >
+                          Lifestyle
+                        </a>
+                      </div>
+                    </div>
+                    <div className="box-inner-p">
+                      <div className="box-inner-ellipsis">
+                        <div style={{ margin: 0, padding: 0, border: 0 }}>
+                          <h2 className="entry-title h3">
+
+                            If you’re truly happy and you know it let it show
+
+                          </h2>
                         </div>
                       </div>
-                      <div className="meta-item meta-date">
-                        <span className="updated d-flex">
-                          <li
-                            class="bi bi-calendar"
-                            style={{ listStyle: "none" }}
-                          ></li>
-                          1 month ago
-                        </span>
+                      <div className="entry-meta">
+                        <div className="meta-item meta-author">
+                          <div className="coauthors">
+                            <span className="vcard author">
+                              <span className="fn">
+                                <img
+                                  alt=""
+                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_5_1473333966-24x24.jpg"
+                                  className="avatar avatar-24 photo"
+                                  height={24}
+                                  width={24}
+                                  loading="lazy"
+                                />
+                                Joana Bergstein
+                              </span>
+                            </span>
+                          </div>
+                        </div>
+                        <div className="meta-item meta-date">
+                          <span className="updated">1 month ago</span>
+                        </div>
                       </div>
                     </div>
-
-
-                      </div>
-                    </div>
-                    
-                  </div>
+                  </article>
                 </div>
-                <div
-                  style={{ width: "30%", height: "400px" }}
-                  className=" article-container me-4"
-                >
-                  <div
-                    className="article-img position-relative"
-                    style={{
-                      backgroundImage: `url(https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_04-370x150.jpg)`,
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                      height: "60%",
-                      width: "auto",
-                    }}
-                  >
-                    <div class="entry-category">
-                      <a
-                        href="https://demo.mekshq.com/gridlove/?cat=2"
-                        class="gridlove-cat gridlove-cat-2"
-                      >
-                        Travel
-                      </a>{" "}
+                <div className="col-lg-4 col-md-6 col-sm-12 layout-combo">
+                  <article className="gridlove-post gridlove-post-a gridlove-box  post-201 post type-post status-publish format-standard has-post-thumbnail hentry category-lifestyle">
+                    <div className="entry-image">
+
+                      <img
+                        width={370}
+                        height={150}
+                        src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_30-370x150.jpg"
+                        className="attachment-gridlove-a4 size-gridlove-a4 wp-post-image"
+                        alt=""
+                        loading="lazy"
+                      />
+                      <div className="entry-category">
+                        <a
+                          href="#"
+                          className="gridlove-cat gridlove-cat-3"
+                        >
+                          Lifestyle
+                        </a>
+                      </div>
                     </div>
-                  </div>
-                  <div className="box-inner-p">
-                    <div className="box-inner-ellipsis">
-                      <div
-                        style={{
-                          margin: "0px",
-                          padding: "0px",
-                          border: "0px none",
-                        }}
-                      >
-                        <h2 className="entry-title h3">
-                          <a href="https://demo.mekshq.com/gridlove/?p=167">
-                            Australia is the ultimate place in the world for
-                            kangaroo...
-                          </a>
-                        </h2>
-                        <div className="entry-meta">
-                      <div className="meta-item meta-author">
-                        <div className="coauthors">
-                          <span className="vcard author">
-                            <span className="fn">
-                              <a href="https://demo.mekshq.com/gridlove?author_name=meks2">
-                                <img
-                                  alt=""
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_4_1473333956-24x24.jpg"
-                                  className="avatar avatar-24 photo"
-                                  loading="lazy"
-                                  width={24}
-                                  height={24}
-                                />
-                                Lisa Scholfield
-                              </a>
-                            </span>
-                          </span>
+                    <div className="box-inner-p">
+                      <div className="box-inner-ellipsis">
+                        <div style={{ margin: 0, padding: 0, border: 0 }}>
+                          <h2 className="entry-title h3">
+
+                            If you’re truly happy and you know it let it show
+
+                          </h2>
                         </div>
                       </div>
-                      <div className="meta-item meta-date">
-                        <span className="updated d-flex">
-                          <li
-                            class="bi bi-calendar"
-                            style={{ listStyle: "none" }}
-                          ></li>
-                          1 month ago
-                        </span>
+                      <div className="entry-meta">
+                        <div className="meta-item meta-author">
+                          <div className="coauthors">
+                            <span className="vcard author">
+                              <span className="fn">
+                                <img
+                                  alt=""
+                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_5_1473333966-24x24.jpg"
+                                  className="avatar avatar-24 photo"
+                                  height={24}
+                                  width={24}
+                                  loading="lazy"
+                                />
+                                Joana Bergstein
+                              </span>
+                            </span>
+                          </div>
+                        </div>
+                        <div className="meta-item meta-date">
+                          <span className="updated">1 month ago</span>
+                        </div>
                       </div>
                     </div>
-                      </div>
-                    </div>
-                   
-                  </div>
+                  </article>
                 </div>
               </div>
             </div>
