@@ -11,125 +11,160 @@ const Editorpick = () => {
             <div className="container">
                 <h4 className='text-dark fw-bolder my-3'>Editor Pick</h4>
                 <div className="row ">
-                    <div style={{ background: ' #ffffff' }} className="col-lg-8 m-0 p-0 col-md-12 col-sm-12 layout-combo">
-                        <article className="gridlove-post shadow gridlove-post-b gridlove-box  post-174 post type-post status-publish format-video has-post-thumbnail hentry category-entertainment post_format-post-format-video">
-                            <div className="entry-image me-4">
-                                <img
-                                    width={385}
-                                    height={300}
-                                    src="/images/croud.jpg"
-                                    className="attachment-gridlove-b8 size-gridlove-b8 wp-post-image"
-                                    alt=""
-                                    loading="lazy" />
+                    <div className="col-lg-8 col-md-12 col-sm-12 layout-combo">
+                        <article className="gridlove-post d-flex gridlove-post-b gridlove-box  post-174 post type-post status-publish format-video has-post-thumbnail hentry category-entertainment post_format-post-format-video">
+                            <div className="entry-image">
+                                <a
+                                    href="https://demo.mekshq.com/gridlove/?p=174"
+                                    title="Are rock concerts really coming back into fashion?"
+                                >
+                                    <img
+                                        width={385}
+                                        height={300}
+                                        src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_38-385x300.jpg"
+                                        className="attachment-gridlove-b8 size-gridlove-b8 wp-post-image"
+                                        alt=""
+                                        loading="lazy"
+                                    />
+                                </a>
                             </div>
-                            <div className="box-inner-ptbr  box-col-b entry-sm-overlay">
+                            <div className="box-inner-ptbr box-col-b entry-sm-overlay">
                                 <div className="box-inner-ellipsis">
-                                    <div className='pt-4  text-dark'>
-                                        <div className="entry-category">
-                                            <span className="gridlove-format-icon">
-                                                <i className="fa fa-play" />
-                                            </span>
-                                            <span className='px-2 py-1 text-light fw-bold' style={{ borderRadius: '20px', fontSize: '11px', background: '#a66bbe' }}>Entertainment</span>
-                                        </div>
-                                        <h2 className="entry-title h3 mt-2">
-                                            <p className='fw-bold' style={{ fontSize: '22px' }}>Are rock concerts really coming back into fashion?</p>
-
+                                    <div style={{ margin: 0, padding: 0, border: 0 }}>
+                                        <span style={{ fontSize: '10px', borderRadius: '22px' }} className='text-light px-2 py-1 bg-warning'>ENTERTAINMENT</span>
+                                        <h2 className="entry-title h3 pt-2">
+                                            <a href="https://demo.mekshq.com/gridlove/?p=174">
+                                                Are rock concerts really coming back into fashion?
+                                            </a>
                                         </h2>
                                         <div className="entry-content">
                                             <p>
                                                 Monotonectally pursue backward-compatible ideas without empowered
-                                                imperatives. Interactively predominate low-risk....
+                                                imperatives. Interactively predominate low-risk high-yield ROI
+                                                rather than adaptive e-tailers....
                                             </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="entry-meta text-dark mt-5 d-flex">
-                                    <div className="meta-item d-flex meta-author">
-                                        <div className="coauthors text-dark d-flex">
-                                            <span className="vcard d-flex author">
-                                                <span className="fn d-flex">
-                                                    <img
-                                                        alt=""
-                                                        src="/images/croud.jpg"
-                                                        className="avatar rounded-circle me-1 d-flex avatar-24 photo"
-                                                        height={24}
-                                                        width={24}
-                                                        loading="lazy"
-                                                    />
-                                                    <span>
-                                                        Patricia Callahan</span>
+                                <div className="entry-meta">
+                                    <div className="meta-item meta-author">
+                                        <div className="coauthors">
+                                            <span className="vcard author">
+                                                <span className="fn">
+                                                    <a href="https://demo.mekshq.com/gridlove?author_name=meks1">
+                                                        <img
+                                                            alt=""
+                                                            src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-24x24.jpg"
+                                                            className="avatar avatar-24 photo"
+                                                            height={24}
+                                                            width={24}
+                                                            loading="lazy"
+                                                        />
+                                                        Patricia Callahan
+                                                    </a>
                                                 </span>
                                             </span>
                                         </div>
                                     </div>
-                                    <div className="meta-item mx-2 meta-views">38,671 views</div>
+                                    <div className="meta-item meta-views">38,671 views</div>
                                 </div>
                             </div>
                         </article>
                     </div>
-                    <div className="col-md-6 col-lg-4 col-sm-12 right-cont">
-                        <img className='editorpick-img2' src="/images/einstine.jpg" alt="" />
-                        <div className="right-cont-top">
-                            <span className='px-2 text-light bg-warning py-1' style={{ fontSize: '11px', borderRadius: '20px' }}>TECHNOLOGY</span>
-                            <p className='fw-bold mt-3 text-light' style={{ fontSize: '20px' }}>The world needs true geniuses now more than ever</p>
-                        </div>
-                        <span className="v-card d-flex author">
-                            <span className="fn d-flex">
-                                <img
-                                    alt=""
-                                    src="/images/croud.jpg"
-                                    className="avatar rounded-circle me-1 d-flex avatar-24 photo"
-                                    height={24}
-                                    width={24}
-                                    loading="lazy"
-                                />
-                                <span>
-                                    Patricia Callahan</span>
-                            </span>
-                        </span>
+
+                    <div className="col-lg-4 col-md-6 col-sm-12 layout-combo">
+                        <article className="gridlove-post gridlove-post-d gridlove-box  post-182 post type-post status-publish format-standard has-post-thumbnail hentry category-technology">
+                            <div className="entry-image">
+                                <a
+                                    href="https://demo.mekshq.com/gridlove/?p=182"
+                                    title="The world needs true geniuses now more than ever"
+                                >
+                                    <img
+                                        width={370}
+                                        height={300}
+                                        src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_24-370x300.jpg"
+                                        className="attachment-gridlove-d4 size-gridlove-d4 wp-post-image"
+                                        alt=""
+                                        loading="lazy"
+                                    />
+                                </a>
+                            </div>
+                            <div style={{position:'absolute' ,top:'10px'}} className="right-inner-head px-4">
+                                <span style={{ fontSize: '10px', borderRadius: '22px' }} className='text-light px-2 py-1 bg-warning'>ENTERTAINMENT</span>
+                                <p className='mt-2 fw-bold text-light h5'>The world needs true geniuses now more than ever</p>
+                            </div>
+                            <div style={{position:'absolute' ,bottom:'30px'}} className="entry-meta mx-4">
+                                    <div className="meta-item meta-author">
+                                        <div className="coauthors">
+                                            <span className="vcard author">
+                                                <span className="fn">
+                                                    <a href="https://demo.mekshq.com/gridlove?author_name=meks1">
+                                                        <img
+                                                            alt=""
+                                                            src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-24x24.jpg"
+                                                            className="avatar avatar-24 photo"
+                                                            height={24}
+                                                            width={24}
+                                                            loading="lazy"
+                                                        />
+                                                        Patricia Callahan
+                                                    </a>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div className="meta-item meta-views">38,671 views</div>
+                                </div>
+                        </article>
                     </div>
-                    <div style={{ background: ' #ffffff' }} className="col-lg-4 shadow my-4 col-md-6 col-sm-12 layout-combo">
+
+
+
+                    {/*  */}
+                    <div className="col-lg-4 col-md-6 col-sm-12 layout-combo">
                         <article className="gridlove-post gridlove-post-c gridlove-box  post-183 post type-post status-publish format-standard has-post-thumbnail hentry category-technology category-travel tag-blog tag-photos tag-tips">
                             <div className="box-inner-p">
                                 <div className="box-inner-ellipsis">
-                                    <div className='my-5'>
-                                        <div className="entry-category">
+                                    <div >
+                                        <div className="entry-category ">
                                             <a
                                                 href="https://demo.mekshq.com/gridlove/?cat=73"
-                                                className="gridlove-cat f1 bg-warning gridlove-cat-73"
+                                                className="gridlove-cat gridlove-cat-73"
                                             >
                                                 Technology
                                             </a>
                                             <a
                                                 href="https://demo.mekshq.com/gridlove/?cat=2"
-                                                className="gridlove-cat f2 bg-danger gridlove-cat-2"
+                                                className="gridlove-cat gridlove-cat-2"
                                             >
                                                 Travel
                                             </a>{" "}
                                         </div>
-                                        <h2 className="entry-title h3">
-                                            <a className='fw-bolder' style={{ fontSize: '22px' }} href="https://demo.mekshq.com/gridlove/?p=183">
-                                                Does a blog post look better with a featured image?
-                                            </a>
-                                        </h2>{" "}
+                                        <h2 className="entry-title mt-5 h3">
+
+                                            Does a blog post look better with a featured image?
+
+                                        </h2>
+                                        {" "}
                                         <div className="entry-content">
-                                            <p style={{ fontSize: '15px' }}>
+                                            <p>
                                                 Authoritatively pontificate synergistic total linkage and pandemic
-                                                metrics. Assertively initiate interactive Conveniently build...
+                                                metrics. Assertively initiate interactive architectures with
+                                                end-to-end meta-services. Conveniently build...
                                             </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="entry-meta  d-flex mt-2">
-                                    <div className="meta-item me-3 meta-author">
+                                <div className="entry-meta">
+                                    <div className="meta-item meta-author">
                                         <div className="coauthors">
                                             <span className="vcard author">
                                                 <span className="fn">
-                                                    <a className='text-secondary' href="https://demo.mekshq.com/gridlove?author_name=meks2">
+                                                    <a href="https://demo.mekshq.com/gridlove?author_name=meks2">
                                                         <img
                                                             alt=""
                                                             src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_4_1473333956-24x24.jpg"
-                                                            className="avatar avatar-24 rounded-circle photo"
+                                                            className="avatar avatar-24 photo"
                                                             height={24}
                                                             width={24}
                                                             loading="lazy"
@@ -141,7 +176,7 @@ const Editorpick = () => {
                                         </div>
                                     </div>
                                     <div className="meta-item meta-comments">
-                                        <a className='text-secondary' href="https://demo.mekshq.com/gridlove/?p=183#respond">
+                                        <a href="https://demo.mekshq.com/gridlove/?p=183#respond">
                                             Add comment
                                         </a>
                                     </div>
@@ -149,20 +184,22 @@ const Editorpick = () => {
                             </div>
                         </article>
                     </div>
-                    {/*  */}
-                    <div className="col-lg-4 mt-4 col-md-6 col-sm-12 layout-combo">
-                        <article style={{ background: '#fff', width: '370px' }} className="gridlove-post gridlove-post-a gridlove-box  post-201 post type-post status-publish format-standard has-post-thumbnail hentry category-lifestyle">
-                            <div className="entry-image mb-4">
-
-                                <img
-                                    width={370}
-                                    height={150}
-                                    src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_01-370x150.jpg"
-                                    className="attachment-gridlove-a4 size-gridlove-a4 wp-post-image"
-                                    alt=""
-                                    loading="lazy"
-                                />
-
+                    <div className="col-lg-4 col-md-6 col-sm-12 layout-combo">
+                        <article className="gridlove-post gridlove-post-a gridlove-box  post-201 post type-post status-publish format-standard has-post-thumbnail hentry category-lifestyle">
+                            <div className="entry-image">
+                                <a
+                                    href="https://demo.mekshq.com/gridlove/?p=201"
+                                    title="If you’re truly happy and you know it let it show"
+                                >
+                                    <img
+                                        width={370}
+                                        height={150}
+                                        src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_01-370x150.jpg"
+                                        className="attachment-gridlove-a4 size-gridlove-a4 wp-post-image"
+                                        alt=""
+                                        loading="lazy"
+                                    />
+                                </a>
                                 <div className="entry-category">
                                     <a
                                         href="https://demo.mekshq.com/gridlove/?cat=3"
@@ -173,41 +210,54 @@ const Editorpick = () => {
                                 </div>
                             </div>
                             <div className="box-inner-p">
-                                <p className='fw-bold h5 text-dark'>If you’re truly happy and you know it let it show</p>
-                                <div className="entry-meta d-flex">
+                                <div className="box-inner-ellipsis">
+                                    <div style={{ margin: 0, padding: 0, border: 0 }}>
+                                        <h2 className="entry-title h3">
+                                            <a href="https://demo.mekshq.com/gridlove/?p=201">
+                                                If you’re truly happy and you know it let it show
+                                            </a>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div className="entry-meta">
                                     <div className="meta-item meta-author">
-                                        <div className="coauthors me-2">
+                                        <div className="coauthors">
                                             <span className="vcard author">
-                                                <span style={{ fontSize: '12px' }} className="fn">
-                                                    <img
-                                                        alt=""
-                                                        src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_5_1473333966-24x24.jpg"
-                                                        className="avatar rounded-circle avatar-24 photo"
-                                                        height={24}
-                                                        width={24}
-                                                        loading="lazy"
-                                                    />
-                                                    Joana Bergstein
+                                                <span className="fn">
+                                                    <a href="https://demo.mekshq.com/gridlove?author_name=meks3">
+                                                        <img
+                                                            alt=""
+                                                            src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_5_1473333966-24x24.jpg"
+                                                            className="avatar avatar-24 photo"
+                                                            height={24}
+                                                            width={24}
+                                                            loading="lazy"
+                                                        />
+                                                        Joana Bergstein
+                                                    </a>
                                                 </span>
                                             </span>
                                         </div>
                                     </div>
                                     <div className="meta-item meta-date">
-                                        <span style={{ fontSize: '12px' }} className="updated">1 month ago</span>
+                                        <span className="updated">1 month ago</span>
                                     </div>
                                 </div>
                             </div>
                         </article>
                     </div>
-                    <div className="col-lg-3 mt-4 mx-3 col-md-6 col-sm-12">
+
+                    <div style={{ marginTop: '25px' }} className="col-lg-4 col-md-6 col-sm-12">
                         <div className="gridlove-inject gridlove-box gridlove-post ">
-                            <img style={{ width: '135%', height: '300px' }} src="/images/ad.jpg" />
+                            <img src="https://mekshq.com/static/gridlove/gridlove_adsense.jpg" />
                         </div>
                     </div>
+
+
                 </div>
             </div>
             {/*  */}
-            
+
         </>
     )
 }
