@@ -128,9 +128,6 @@
   }
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;500&display=swap");
@@ -197,7 +194,7 @@ body {
     text-align: left;
     z-index: 3;
     margin-left: 15px;
-    padding-top: 60px;
+    padding-top: 120px;
     pointer-events: none;
   }
 
@@ -220,8 +217,22 @@ body {
 
   .gridlove-cover-content .entry-meta {
     position: absolute;
-    bottom: 150px;
+    bottom: 100px;
+    text-decoration: none;
+    color: white;
+    list-style: none;
     z-index: 100;
+  }
+
+  .entry-meta a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    
+  }
+
+  a{
+    text-decoration: none;
   }
 
 
@@ -233,7 +244,7 @@ body {
     cursor: pointer;
      transition: 1s linear all ;
     -webkit-transition: all 1s;
-    height: 60vh;
+    height: 70vh;
 }
   .banner-image::after {
     content: '\A';
