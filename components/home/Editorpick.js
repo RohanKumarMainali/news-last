@@ -92,7 +92,7 @@ const Editorpick = () => {
                         <article className="gridlove-post gridlove-post-c gridlove-box  post-183 post type-post status-publish format-standard has-post-thumbnail hentry category-technology category-travel tag-blog tag-photos tag-tips">
                             <div className="box-inner-p">
                                 <div className="box-inner-ellipsis">
-                                    <div className='my-3'>
+                                    <div className='my-5'>
                                         <div className="entry-category">
                                             <a
                                                 href="https://demo.mekshq.com/gridlove/?cat=73"
