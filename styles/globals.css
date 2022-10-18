@@ -984,11 +984,23 @@ body .gridlove-share .meks_ess a {
 
 .gridlove-page-layout-4,
 .gridlove-page-layout-5,
-.gridlove-single-layout-7,
+
 .gridlove-single-layout-8 {
   margin: auto;
   margin-top: -75px;
   position: absolute;
+  z-index: 999;
+  width: 70%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gridlove-single-layout-7{
+  margin: auto;
+  margin-top: -75px;
+  position: relative;
   z-index: 999;
   width: 70%;
   top: 0;
@@ -1428,7 +1440,7 @@ body div.wpforms-container-full .wpforms-form button[type=submit],
 body div.wpforms-container-full .wpforms-form .wpforms-page-button,
 .add_to_cart_button {
   color: #FFF;
-  background-color: #009cff;
+  /* background-color: #009cff; */
 }
 
 .gridlove-count {
@@ -1638,4 +1650,39 @@ q:before,
   background-color: rgb(59, 59, 59);
   margin: auto;
   display: block;
+}
+
+
+
+
+.gridlove-author-links .gridlove-pill {
+  margin-bottom: 2px;
+}
+
+.pill-large {
+  height: 30px;
+  line-height: 30px;
+  padding: 1px 15px;
+}
+
+.gridlove-action-link, .gridlove-pill {
+  display: inline-block;
+  height: 24px;
+  font-size: 10px;
+  line-height: 24px;
+  padding: 0 11px;
+  border-radius: 20px;
+  margin-right: 5px;
+  text-transform: uppercase;
+  transition: all .2s ease-in-out;
+}
+
+.gridlove-pill:hover, .gridlove-author-links a:hover, .entry-category a:hover {
+  background: #111;
+  color: #FFF;
+}
+
+.widget.gridlove_category_widget {
+  padding: 0;
+  margin-bottom: 22px;
 }

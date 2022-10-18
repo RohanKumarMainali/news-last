@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Head from "next/head";
 
 import "bootstrap-icons/font/bootstrap-icons.css";
+import Footer from "../components/Footer";
 
 function news() {
   return (
@@ -27,7 +28,7 @@ function news() {
         <div
           className=" "
           style={{
-            backgroundImage: `url(https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_11-1500x500.jpg)`,
+            backgroundImage: `url(https://i0.wp.com/www.peoplesreview.com.np/wp-content/uploads/2022/03/Sher-B-Deuba.jpg?resize=768%2C352&ssl=1)`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             height: "100%",
@@ -39,10 +40,18 @@ function news() {
         id="content"
         className="gridlove-site-content container gridlove-sidebar-right"
       >
-        <div className="row d-flex justify-content-center" style={{position: 'relative'}}>
+        <div
+          className="row d-flex justify-content-center"
+          style={{ position: "relative" }}
+        >
           <div
             className="gridlove-share-wrapper"
-            style={{ position: "absolute", left: "0" , left: '10%' , marginTop: '2%'}}
+            style={{
+              position: "absolute",
+              left: "0",
+              left: "10%",
+              marginTop: "2%",
+            }}
           >
             <div
               className="gridlove-share gridlove-box gridlove-sticky-share"
@@ -72,7 +81,10 @@ function news() {
               </div>{" "}
             </div>
           </div>
-          <div className="gridlove-content gridlove-single-layout-7" style={{width: '58%'}}>
+          <div
+            className="gridlove-content gridlove-single-layout-7"
+            style={{ width: "58%" }}
+          >
             <article
               id="post-151"
               className="gridlove-box box-vm post-151 post type-post status-publish format-standard has-post-thumbnail hentry category-travel"
@@ -88,7 +100,7 @@ function news() {
                     </a>{" "}
                   </div>
                   <h1 className="entry-title">
-                    5 reasons why you should definitely go on a safary
+                    भारतीय सेनामा कार्यरत अनिशले जिते पुरुष म्याराथनमा स्वर्ण
                   </h1>
                   <div className="entry-meta">
                     <div className="meta-item meta-author">
@@ -123,66 +135,73 @@ function news() {
                 </div>
                 <div className="entry-headline h5">
                   <p>
-                    Professionally develop user-centric methods of empowerment
-                    without installed base internal or “organic” sources.
-                    Phosfluorescently aggregate pandemic leadership skills and
-                    distinctive paradigms. Proactively evolve backend processes
-                    and vertical meta-services. Rapidiously aggregate
-                    frictionless strategic theme areas through holistic.
+                    २८ असोज, पोखरा । दुई पटक चुनाव लड्दा पनि सांसद बन्न नसकेका
+                    कृष्णचन्द्र नेपाली पोखरेल २०७४ मा नवलपुर–१ (क) बाट प्रदेशसभा
+                    सदस्य मात्र भएनन्, नेपाल कम्युनिस्ट पार्टी (नेकपा) मा आएको
+                    फुटको लाभ लिँदै गण्डकी प्रदेशको मुख्यमन्त्री बन्न सफल भए ।
+                    गण्डकीको बहालवाला मुख्यमन्त्री पोखरेल यसपटक संघ र प्रदेश कतै
+                    पनि उम्मेदवार भएनन् । नवलपुर–१ मा कांग्रेसका पूर्व
+                    महामन्त्री शशांक कोइराला आफैं चुनाव लड्ने भएकाले उनले संघको
+                    टिकट दाबी नै गरेनन् । प्रदेशसभा निर्वाचन क्षेत्रमा पनि उनको
+                    नाम सिफारिसै भएन । जिल्लाले समानुपातिक सूचीमा नाम थपेर
+                    पठाएको थियो, तर बन्द सूचीमा अटाएनन् ।
                   </p>
                 </div>
                 <div className="entry-content">
                   <p>
-                    Chia quinoa meditation literally, cred food truck locavore
-                    craft beer chambray heirloom High Life. Gastropub chambray
-                    craft beer distillery direct trade. Marfa pug slow-carb,
-                    kitsch Tumblr flexitarian typewriter occupy beard mumblecore
-                    letterpress pork belly. Scenester street art chambray
-                    mixtape. PBR put a bird on it tousled sustainable. Selfies
-                    umami tote bag, raw denim distillery tousled slow-carb
-                    8-bit. Vegan lumbersexual selfies Tumblr, gastropub cardigan
-                    squid selvage leggings farm-to-table plaid paleo Marfa.
+                    पोखरेलले अनलाइनखबरसँग भने, ‘समानुपातिकमा राख्ने भएपछि पहिलो,
+                    दोस्रो नम्बरमा राख्ने भए राख्नुस्, नत्र नराख्नुस् भनेको हुँ
+                    ।’ प्रदेश र प्रतिनिधिसभाको आश मारेका ७३ वर्षीय पोखरेलको नजर
+                    अब राष्ट्रिय सभातिर देखिन्छ । कांग्रेस केन्द्रीय सदस्य
+                    पोखरेल भन्छन्, ‘राजनीतिमा सम्भावना नहुने भन्ने भएन । हेरौं,
+                    राष्ट्रिय सभा सदस्य भइएछ भने केही छैन ।’
                   </p>
                   <blockquote className="wp-block-quote">
                     <p>
-                      Beard fashion axe trust fund, post-ironic listicle
-                      scenester lo-fi shabby chic ugh cornhole 90’s gentrify.
-                      Scenester DIY Thundercats small batch. Fashion axe beard
-                      brunch scenester food truck heirloom.
+                    दोर्जे लामा गुरुङले पनि स्वतन्त्र उम्मेदवारी दिएका थिए ।
+                    उनलाई उम्मेदवारी फिर्ता गराएर मनाङे निर्विरोध बनेका हुन् ।
                     </p>
                   </blockquote>
                   <p>
-                    Etsy pour-over brunch 8-bit kale chips. Lomo keytar
-                    church-key vegan Truffaut PBR. Lo-fi normcore hella
-                    Kickstarter fanny pack art party. Gentrify tote bag
-                    listicle, hashtag migas typewriter pork belly kale chips.
+                    मुख्यमन्त्री पोखरेल मात्र होइन, गण्डकी प्रदेशका धेरै सदस्यले
+                    संघ वा प्रदेश कतैपनि टिकट पाएनन् । केहीले बागी उम्मेदवारी
+                    दिएका थिए, तर फिर्ता लिएका छन् । गण्डकी प्रदेश सरकारका युवा
+                    तथा खेलकुद मन्त्री राजीव गुरुङ ऊर्फ दीपक मनाङे भने प्रदेशसभा
+                    सदस्यमा निर्विरोध निर्वाचित भएका छन् । सत्ता र विपक्षी दुबै
+                    गठबन्धनको समर्थन जुटाएका उनले मनाङ क मा उम्मेदवारी दिएका थिए
+                    । दोर्जे लामा गुरुङले पनि स्वतन्त्र उम्मेदवारी दिएका थिए ।
+                    उनलाई उम्मेदवारी फिर्ता गराएर मनाङे निर्विरोध बनेका हुन् ।
                   </p>
                   <span id="more-151" />
-                  <h3>Hoodie small batch listicle 90’s High Life Helvetica</h3>
+                  <h3> कानुन, सञ्चार तथा प्रदेश सभा मामिला मन्त्री विन्दुकुमार</h3>
                   <p>
-                    Cold-pressed tofu Cosby sweater leggings hella Godard, migas
-                    ethical readymade bicycle rights squid single-origin coffee.
-                    Chillwave distillery post-ironic, street art cliche Bushwick
-                    meditation meh actually skateboard art party literally
-                    fixie. Readymade health goth bespoke, forage quinoa
-                    mumblecore banh mi. Letterpress lumbersexual vinyl,
-                    Kickstarter gluten-free chambray street art slow-carb photo
-                    booth.
+                    कानुन, सञ्चार तथा प्रदेश सभा मामिला मन्त्री विन्दुकुमार
+                    थापाले कास्की क्षेत्र नम्बर २ को ‘ख’ को टिकट पाएका छन् ।
+                    सत्ता गठबन्धनको भागमा परेको यो क्षेत्रको टिकटका लागि भौतिक
+                    पूर्वाधारमन्त्री कुमार खड्का पनि दौडमा थिए । तर थापाले बाजी
+                    मारे । अब उनी फेरि प्रदेशसभा सदस्य चुनिने मात्र होइन, सके
+                    मुख्यमन्त्री बन्ने, नभए शक्तिशाली मन्त्रालय लिने योजनामा छन्
+                    । गण्डकी सरकारका अर्थमन्त्री रामजी बरालले भने प्रतिनिधिसभा
+                    सदस्यकै टिकट पाएका छन् । सत्ता गठबन्धनमा माओवादीले पाएको
+                    कस्की क्षेत्र नम्बर ३ मा टिकट पाएका बराल पहिलो पटक
+                    प्रतिनिधिसभा प्रवेश गर्ने योजनामा छन् ।
                   </p>
                   <p>
-                    Retro food truck aesthetic fap Kickstarter Pitchfork tilde
-                    biodiesel, sartorial asymmetrical literally cray try-hard.
-                    Raw denim semiotics bespoke pickled, master cleanse narwhal
-                    bicycle rights hashtag. Try-hard aesthetic ethical +1.
-                    Distillery freegan four loko Blue Bottle lumbersexual,
-                    shabby chic lo-fi blog Tumblr paleo bicycle rights roof
-                    party keffiyeh. Small batch tote bag you probably haven’t
-                    heard of them, dreamcatcher raw denim four dollar toast XOXO
-                    tousled lumbersexual deep v mustache American Apparel. Cray
-                    Godard mumblecore wayfarers, post-ironic art party Austin
-                    cold-pressed next level PBR&amp;B farm-to-table. Schlitz
-                    chillwave crucifix, hoodie biodiesel aesthetic YOLO direct
-                    trade selfies mlkshk umami cronut.
+                    प्रदेश सरकारका अरु मन्त्री भने यसपटक चुनावी दौडमा छैनन् ।
+                    भौतिक पूर्वाधारमन्त्री खड्का मुख्यमन्त्री बन्ने योजनाका साथ
+                    कास्की २ को खमा चुनाव लड्न चाहन्थे । यो क्षेत्रको टिकट अर्का
+                    मन्त्री बिन्दुकुमारले पाए भने अघिल्लो पटक समानुपातिकबाट आएका
+                    कारण उनी यो पटक बन्दसूचीमै पर्न सकेनन् । बागी हालेका
+                    मन्त्रीले टिकट फिर्ता लिए पार्टीले टिकट नदिएको भन्दै
+                    गण्डकीका दुई मन्त्रीले बागी उम्मेदवारी दिएका थिए, तर टिक्न
+                    सकेनन् । गोरखा क्षेत्र नम्बर २ को ‘क’ बाट चुनाव जितेका
+                    ऊर्जा, जलस्रोत तथा खानेपानी मन्त्री हरिशरण आचार्य फेरि उठ्न
+                    चाहन्थे । तर अध्यक्ष बाबुराम भट्टराईले आफ्ना पूर्वस्वकीय
+                    सचिव फणिन्द्र देवकोटालाई उम्मेदवार बनाए । हरिशरणले बागी
+                    उम्मेदवारी दिएका थिए, अन्तिम समयमा फिर्ता लिए । अर्को बागी
+                    हाल्ने मन्त्री हुन्, स्याङ्जाका मेखलाल श्रेष्ठ । शिक्षा,
+                    संस्कृति, विज्ञान प्रविधि तथा सामाजिक विकासमन्त्री मेखलाल
+                    स्याङ्जा क्षेत्र नम्बर १ को (क) मा फेरि दोहोरिन चाहन्थे ।
                   </p>
                 </div>
                 <div className="gridlove-author">
@@ -422,8 +441,8 @@ function news() {
             </div>
           </div>
 
-          <div className="grid-love-sidebar1" >
-            <div className="gridlove-sidebar p-3" style={{ height: "3865.48px" , width: '100%'}}>
+          <div className="grid-love-sidebar1">
+            <div className="gridlove-sidebar p-3" style={{ width: "100%" }}>
               <div
                 id="gridlove_category_widget-6"
                 className="widget gridlove-box gridlove_category_widget"
@@ -434,7 +453,7 @@ function news() {
                     <a
                       href="https://demo.mekshq.com/gridlove/?cat=2"
                       className="gridlove-cat-col-2"
-                      style={{color: '#5e5e5e'}}
+                      style={{ color: "#5e5e5e" }}
                     >
                       <span className="category-text">Travel</span>
                       <span className="gridlove-count gridlove-cat gridlove-cat-2">
@@ -446,7 +465,7 @@ function news() {
                     <a
                       href="https://demo.mekshq.com/gridlove/?cat=73"
                       className="gridlove-cat-col-73"
-                      style={{color: '#5e5e5e'}}
+                      style={{ color: "#5e5e5e" }}
                     >
                       <span className="category-text">Technology</span>
                       <span className="gridlove-count gridlove-cat gridlove-cat-73">
@@ -469,10 +488,13 @@ function news() {
                     <a
                       href="https://demo.mekshq.com/gridlove/?cat=3"
                       className="gridlove-cat-col-3"
-                      style={{color: '#5e5e5e'}}
+                      style={{ color: "#5e5e5e" }}
                     >
-                      <span className="category-text" >Lifestyle</span>
-                      <span className="gridlove-count gridlove-cat gridlove-cat-3" style={{backgroundColor: '#009cff'}}>
+                      <span className="category-text">Lifestyle</span>
+                      <span
+                        className="gridlove-count gridlove-cat gridlove-cat-3"
+                        style={{ backgroundColor: "#009cff" }}
+                      >
                         11
                       </span>
                     </a>
@@ -481,7 +503,7 @@ function news() {
                     <a
                       href="https://demo.mekshq.com/gridlove/?cat=6"
                       className="gridlove-cat-col-6"
-                      style={{color: '#5e5e5e'}}
+                      style={{ color: "#5e5e5e" }}
                     >
                       <span className="category-text">Entertainment</span>
                       <span className="gridlove-count gridlove-cat gridlove-cat-6">
@@ -491,641 +513,29 @@ function news() {
                   </li>
                 </ul>
               </div>
+
               <div
-                id="gridlove_posts_widget-2"
-                className="widget gridlove-box gridlove_posts_widget"
+                className="gridlove-sticky-sidebar"
+                style={{ height: "200px" }}
               >
-                <h4 className="widget-title">
-                  Recent posts
-                  <span className="gridlove-slider-controls" data-autoplay={0}>
-                    <div className="owl-prev" style={{}}>
-                      <i className="fa fa-chevron-left" />
-                    </div>
-                    <div className="owl-next" style={{}}>
-                      <i className="fa fa-chevron-right" />
-                    </div>
-                  </span>
-                </h4>
-                <div className="gridlove-posts-widget gridlove-widget-slider owl-carousel owl-theme owl-loaded">
-                  <div className="owl-stage-outer">
-                    <div
-                      className="owl-stage"
-                      style={{
-                        transform: "translate3d(-480px, 0px, 0px)",
-                        transition: "all 0s ease 0s",
-                        width: "1680px",
-                      }}
-                    >
-                      <div
-                        className="owl-item cloned"
-                        style={{ width: "240px", marginRight: "0px" }}
-                      >
-                        <div className="gridlove-posts-widget-item-wrapper">
-                          <article className="post-174 post type-post status-publish format-video has-post-thumbnail hentry category-entertainment post_format-post-format-video">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=174"
-                                title="Are rock concerts really coming back into fashion?"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_38-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=174">
-                                  Are rock concerts really coming back into
-                                  fashion?
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                          <article className="post-182 post type-post status-publish format-standard has-post-thumbnail hentry category-technology">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=182"
-                                title="The world needs true geniuses now more than ever"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_24-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=182">
-                                  The world needs true geniuses now more than
-                                  ever
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                          <article className="post-183 post type-post status-publish format-standard has-post-thumbnail hentry category-technology category-travel tag-blog tag-photos tag-tips">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=183"
-                                title="Does a blog post look better with a featured image?"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_26-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=183">
-                                  Does a blog post look better with a featured
-                                  image?
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                        </div>
-                      </div>
-                      <div
-                        className="owl-item cloned"
-                        style={{ width: "240px", marginRight: "0px" }}
-                      >
-                        <div className="gridlove-posts-widget-item-wrapper">
-                          <article className="post-201 post type-post status-publish format-standard has-post-thumbnail hentry category-lifestyle">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=201"
-                                title="If you’re truly happy and you know it let it show"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_01-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=201">
-                                  If you’re truly happy and you know it let it
-                                  show
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                          <article className="post-187 post type-post status-publish format-gallery has-post-thumbnail hentry category-food-and post_format-post-format-gallery">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=187"
-                                title="With good typography you don’t actually need images"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_13-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=187">
-                                  With good typography you don’t actually need
-                                  images
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                          <article className="post-175 post type-post status-publish format-audio has-post-thumbnail hentry category-travel tag-blog tag-magazine tag-technology-2 post_format-post-format-audio">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=175"
-                                title="Don’t let fear stop you from having great adventures"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_09-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=175">
-                                  Don’t let fear stop you from having great
-                                  adventures
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                        </div>
-                      </div>
-                      <div
-                        className="owl-item active"
-                        style={{ width: "240px", marginRight: "0px" }}
-                      >
-                        <div className="gridlove-posts-widget-item-wrapper">
-                          <article className="post-192 post type-post status-publish format-standard has-post-thumbnail hentry category-lifestyle">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=192"
-                                title="Everything you ever need to know about flowers"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_37-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=192">
-                                  Everything you ever need to know about flowers
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                          <article className="post-153 post type-post status-publish format-standard has-post-thumbnail hentry category-food-and tag-company tag-lifestyle-2 tag-magazine">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=153"
-                                title="Coffee and lemons don’t go together that well"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_15-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=153">
-                                  Coffee and lemons don’t go together that well
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                          <article className="post-155 post type-post status-publish format-standard has-post-thumbnail hentry category-food-and tag-blog tag-company tag-entrepreneurship tag-magazine">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=155"
-                                title="Did you know that plants actually have a secret life?"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_02-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=155">
-                                  Did you know that plants actually have a
-                                  secret life?
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                        </div>
-                      </div>
-                      <div
-                        className="owl-item"
-                        style={{ width: "240px", marginRight: "0px" }}
-                      >
-                        <div className="gridlove-posts-widget-item-wrapper">
-                          <article className="post-174 post type-post status-publish format-video has-post-thumbnail hentry category-entertainment post_format-post-format-video">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=174"
-                                title="Are rock concerts really coming back into fashion?"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_38-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=174">
-                                  Are rock concerts really coming back into
-                                  fashion?
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                          <article className="post-182 post type-post status-publish format-standard has-post-thumbnail hentry category-technology">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=182"
-                                title="The world needs true geniuses now more than ever"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_24-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=182">
-                                  The world needs true geniuses now more than
-                                  ever
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                          <article className="post-183 post type-post status-publish format-standard has-post-thumbnail hentry category-technology category-travel tag-blog tag-photos tag-tips">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=183"
-                                title="Does a blog post look better with a featured image?"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_26-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=183">
-                                  Does a blog post look better with a featured
-                                  image?
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                        </div>
-                      </div>
-                      <div
-                        className="owl-item"
-                        style={{ width: "240px", marginRight: "0px" }}
-                      >
-                        <div className="gridlove-posts-widget-item-wrapper">
-                          <article className="post-201 post type-post status-publish format-standard has-post-thumbnail hentry category-lifestyle">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=201"
-                                title="If you’re truly happy and you know it let it show"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_01-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=201">
-                                  If you’re truly happy and you know it let it
-                                  show
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                          <article className="post-187 post type-post status-publish format-gallery has-post-thumbnail hentry category-food-and post_format-post-format-gallery">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=187"
-                                title="With good typography you don’t actually need images"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_13-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=187">
-                                  With good typography you don’t actually need
-                                  images
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                          <article className="post-175 post type-post status-publish format-audio has-post-thumbnail hentry category-travel tag-blog tag-magazine tag-technology-2 post_format-post-format-audio">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=175"
-                                title="Don’t let fear stop you from having great adventures"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_09-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=175">
-                                  Don’t let fear stop you from having great
-                                  adventures
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                        </div>
-                      </div>
-                      <div
-                        className="owl-item cloned"
-                        style={{ width: "240px", marginRight: "0px" }}
-                      >
-                        <div className="gridlove-posts-widget-item-wrapper">
-                          <article className="post-192 post type-post status-publish format-standard has-post-thumbnail hentry category-lifestyle">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=192"
-                                title="Everything you ever need to know about flowers"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_37-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=192">
-                                  Everything you ever need to know about flowers
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                          <article className="post-153 post type-post status-publish format-standard has-post-thumbnail hentry category-food-and tag-company tag-lifestyle-2 tag-magazine">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=153"
-                                title="Coffee and lemons don’t go together that well"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_15-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=153">
-                                  Coffee and lemons don’t go together that well
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                          <article className="post-155 post type-post status-publish format-standard has-post-thumbnail hentry category-food-and tag-blog tag-company tag-entrepreneurship tag-magazine">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=155"
-                                title="Did you know that plants actually have a secret life?"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_02-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=155">
-                                  Did you know that plants actually have a
-                                  secret life?
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                        </div>
-                      </div>
-                      <div
-                        className="owl-item cloned"
-                        style={{ width: "240px", marginRight: "0px" }}
-                      >
-                        <div className="gridlove-posts-widget-item-wrapper">
-                          <article className="post-174 post type-post status-publish format-video has-post-thumbnail hentry category-entertainment post_format-post-format-video">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=174"
-                                title="Are rock concerts really coming back into fashion?"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_38-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=174">
-                                  Are rock concerts really coming back into
-                                  fashion?
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                          <article className="post-182 post type-post status-publish format-standard has-post-thumbnail hentry category-technology">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=182"
-                                title="The world needs true geniuses now more than ever"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_24-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=182">
-                                  The world needs true geniuses now more than
-                                  ever
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                          <article className="post-183 post type-post status-publish format-standard has-post-thumbnail hentry category-technology category-travel tag-blog tag-photos tag-tips">
-                            <div className="entry-image">
-                              <a
-                                href="https://demo.mekshq.com/gridlove/?p=183"
-                                title="Does a blog post look better with a featured image?"
-                              >
-                                <img
-                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_26-80x60.jpg"
-                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
-                                  alt=""
-                                  loading="lazy"
-                                  width={80}
-                                  height={60}
-                                />{" "}
-                              </a>
-                            </div>
-                            <div className="entry-header">
-                              <h6>
-                                <a href="https://demo.mekshq.com/gridlove/?p=183">
-                                  Does a blog post look better with a featured
-                                  image?
-                                </a>
-                              </h6>{" "}
-                            </div>
-                          </article>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="owl-controls">
-                    <div style={{}} className="owl-dots">
-                      <div className="owl-dot active">
-                        <span />
-                      </div>
-                      <div className="owl-dot">
-                        <span />
-                      </div>
-                      <div className="owl-dot">
-                        <span />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="gridlove-sticky-sidebar">
                 <div
                   id="mks_ads_widget-15"
                   className="widget gridlove-box mks_ads_widget"
-                >
-                  <ul className="mks_adswidget_ul large">
-                    <li data-showind={0}>
-                      <div style={{ width: "300px", height: "250px" }}>
-                        <a
-                          href="javascript:void(0);"
-                          className="mks-ep-trigger-open"
-                        >
-                          <img src="https://mekshq.com/static/gridlove/td_gridlove_300.jpg" />
-                        </a>
-                      </div>
-                    </li>
-                  </ul>
-                </div>{" "}
+                  style={{
+                    backgroundImage: `url(https://mekshq.com/static/gridlove/td_gridlove_300.jpg)`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    height: "100%",
+                    width: "100%",
+                  }}
+                ></div>{" "}
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <Footer></Footer>
     </>
   );
 }
