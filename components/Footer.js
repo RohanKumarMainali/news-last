@@ -20,8 +20,8 @@ const Footer = () => {
             <div id="footer" className="gridlove-footer mt-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div id="text-4" className="widget widget_text">
+                        <div style={{marginTop:'75px'}} className="col-lg-3 col-md-6 col-sm-12">
+                            <div  id="text-4" className="widget widget_text m-0 p-0 ">
                                 {" "}
                                 <div className="textwidget">
                                     <p>
@@ -38,8 +38,8 @@ const Footer = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div id="mks_social_widget-5" className="widget mks_social_widget">
-                                <ul className='d-flex'>
+                            <div id="mks_social_widget-5 " className="widget mks_social_widget">
+                                <ul className=' d-flex'>
                                     <li style={{ fontSize: '30px', color: '#618feb' }}><i class="bi bi-facebook me-3"></i></li>
                                     <li style={{ fontSize: '30px', color: '#E1306C' }}><i class="bi bi-instagram me-3"></i></li>
                                     <li style={{ fontSize: '30px', color: '#1DA1F2' }}><i class="bi bi-twitter"></i></li>
@@ -116,7 +116,7 @@ const Footer = () => {
                             </div>{" "}
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div id="nav_menu-4" className="widget widget_nav_menu">
+                            <div style={{marginTop: '75px'}} id="nav_menu-4" className="widget widget_nav_menu">
                                 <h4 className="widget-title">Help &amp; Support</h4>
                                 <div className="menu-gridlove-footer-container">
                                     <ul id="menu-gridlove-footer" className="menu">
