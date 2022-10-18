@@ -9,13 +9,14 @@ const Editorpick = () => {
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
             </Head>
             <div className="container">
-                <h4 className='text-dark fw-bolder my-3'>Editor Pick</h4>
+                <h2 className='text-dark fw-bolder my-3'>Editor Pick</h2>
                 <div className="row ">
                     <div className="col-lg-8 col-md-12 col-sm-12 layout-combo">
                         <article className="gridlove-post d-flex gridlove-post-b gridlove-box  post-174 post type-post status-publish format-video has-post-thumbnail hentry category-entertainment post_format-post-format-video">
                             <div className="entry-image">
 
                                 <img
+                                style={{width:"100%"}}
                                     width={385}
                                     height={300}
                                     src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_38-385x300.jpg"
@@ -25,9 +26,9 @@ const Editorpick = () => {
                                 />
                             </div>
                             <div className="box-inner-ptbr box-col-b entry-sm-overlay">
-                                <div className="box-inner-ellipsis">
+                                <div className="box-inner-ellipsis mt-2">
                                     <div style={{ margin: 0, padding: 0, border: 0 }}>
-                                        <span style={{ fontSize: '10px', borderRadius: '22px' }} className='text-light  px-2 py-1 bg-warning'>ENTERTAINMENT</span>
+                                        <span className='text-light lolol'>ENTERTAINMENT</span>
                                         <h2 className="entry-title h3 pt-2">
                                             Are rock concerts really coming back into fashion?
                                         </h2>
@@ -92,7 +93,7 @@ const Editorpick = () => {
                         <article className="gridlove-post gridlove-post-d gridlove-box  post-182 post type-post status-publish format-standard has-post-thumbnail hentry category-technology">
                             <div className="entry-image">
                                 <img
-                                    style={{width:'100%'}}
+                                    style={{ width: '100%' }}
                                     height={300}
                                     src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_24-370x300.jpg"
                                     className="attachment-gridlove-d4 size-gridlove-d4 wp-post-image"
@@ -245,7 +246,7 @@ const Editorpick = () => {
 
                     <div style={{ marginTop: '25px' }} className="col-lg-4 col-md-6 col-sm-12">
                         <div className="gridlove-inject gridlove-box gridlove-post ">
-                            <img  style={{width:'100%', objectFit:'cover', height:'100%'}} src="https://mekshq.com/static/gridlove/gridlove_adsense.jpg" />
+                            <img style={{ width: '100%', objectFit: 'cover', height: '100%' }} src="https://mekshq.com/static/gridlove/gridlove_adsense.jpg" />
                         </div>
                     </div>
 

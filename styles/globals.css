@@ -3,7 +3,8 @@ body {
   margin: 0;
   padding: 0;
 }
-html{
+
+html {
   margin: 0;
   padding: 0;
 }
@@ -451,6 +452,7 @@ a {
   height: 300px;
   position: relative;
   line-height: 1.375;
+  max-width: 100%;
 }
 
 .gridlove-post {
@@ -997,7 +999,7 @@ body .gridlove-share .meks_ess a {
   justify-content: center;
 }
 
-.gridlove-single-layout-7{
+.gridlove-single-layout-7 {
   margin: auto;
   margin-top: -75px;
   position: relative;
@@ -1443,6 +1445,19 @@ body div.wpforms-container-full .wpforms-form .wpforms-page-button,
   /* background-color: #009cff; */
 }
 
+.lolol {
+  background-color: #009cff;
+  cursor: pointer;
+  font-size: 10px;
+  border-radius: 20px;
+  padding: 7px 11px 6px;
+}
+
+.lolol:hover {
+  background-color: #000;
+  color: red;
+}
+
 .gridlove-count {
   float: right;
   z-index: 2;
@@ -1665,7 +1680,8 @@ q:before,
   padding: 1px 15px;
 }
 
-.gridlove-action-link, .gridlove-pill {
+.gridlove-action-link,
+.gridlove-pill {
   display: inline-block;
   height: 24px;
   font-size: 10px;
@@ -1677,7 +1693,9 @@ q:before,
   transition: all .2s ease-in-out;
 }
 
-.gridlove-pill:hover, .gridlove-author-links a:hover, .entry-category a:hover {
+.gridlove-pill:hover,
+.gridlove-author-links a:hover,
+.entry-category a:hover {
   background: #111;
   color: #FFF;
 }
