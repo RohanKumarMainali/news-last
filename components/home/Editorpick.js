@@ -61,6 +61,30 @@ const Editorpick = () => {
                                     <div className="meta-item meta-views">38,671 views</div>
                                 </div>
                             </div>
+                            <div style={{ position: 'absolute', top: '10px' }} className="right-inner-head px-4">
+                                <span style={{ fontSize: '10px', borderRadius: '22px' }} className='text-light px-2 py-1 bg-warning'>ENTERTAINMENT</span>
+                                <p className='mt-2 fw-bold text-light h5'>The world needs true geniuses now more than ever</p>
+                            </div>
+                            <div style={{ position: 'absolute', bottom: '30px' }} className="entry-meta-custom mx-4">
+                                <div className="meta-item meta-author me-2">
+                                    <div className="coauthors">
+                                        <span className="vcard author">
+                                            <span className="fn">
+                                                <img
+                                                    alt=""
+                                                    src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-24x24.jpg"
+                                                    className="avatar avatar-24 photo"
+                                                    height={24}
+                                                    width={24}
+                                                    loading="lazy"
+                                                />
+                                                Patricia Callahan
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="meta-item meta-views">38,671 views</div>
+                            </div>
                         </article>
                     </div>
 
@@ -68,7 +92,7 @@ const Editorpick = () => {
                         <article className="gridlove-post gridlove-post-d gridlove-box  post-182 post type-post status-publish format-standard has-post-thumbnail hentry category-technology">
                             <div className="entry-image">
                                 <img
-                                    width={370}
+                                    style={{width:'100%'}}
                                     height={300}
                                     src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_24-370x300.jpg"
                                     className="attachment-gridlove-d4 size-gridlove-d4 wp-post-image"
@@ -102,8 +126,6 @@ const Editorpick = () => {
                             </div>
                         </article>
                     </div>
-
-
 
                     {/*  */}
                     <div className="col-lg-4 col-md-6 col-sm-12 layout-combo">
@@ -223,7 +245,7 @@ const Editorpick = () => {
 
                     <div style={{ marginTop: '25px' }} className="col-lg-4 col-md-6 col-sm-12">
                         <div className="gridlove-inject gridlove-box gridlove-post ">
-                            <img src="https://mekshq.com/static/gridlove/gridlove_adsense.jpg" />
+                            <img  style={{width:'100%', objectFit:'cover', height:'100%'}} src="https://mekshq.com/static/gridlove/gridlove_adsense.jpg" />
                         </div>
                     </div>
 
