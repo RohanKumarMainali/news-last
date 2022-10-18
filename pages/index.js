@@ -80,7 +80,7 @@ const HomePage = () => {
                 <div className="entry-content">
                   <p>
                     Credibly empower enterprise wide mindshare for excellent
-                    "outside the box" thinking. Proactively mesh impactful meta
+                    outside the box" thinking. Proactively mesh impactful meta
                     services rather than enterprise results. Professionally
                     generate end-to-end human capital...
                   </p>
@@ -131,7 +131,7 @@ const HomePage = () => {
                 <div className="entry-content">
                   <p>
                     Credibly empower enterprise wide mindshare for excellent
-                    "outside the box" thinking. Proactively mesh impactful meta
+                    outside the box" thinking. Proactively mesh impactful meta
                     services rather than enterprise results. Professionally
                     generate end-to-end human capital...
                   </p>
