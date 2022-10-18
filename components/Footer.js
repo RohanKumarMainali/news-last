@@ -153,7 +153,7 @@ const Footer = () => {
                                 {" "}
                                 <div className="textwidget">
                                     <a href="javascript:void(0);" className="mks-ep-trigger-open">
-                                        <img src="https://mekshq.com/static/gridlove/td_gridlove_248.jpg" />
+                                        <img style={{width:'100%'}} src="https://mekshq.com/static/gridlove/td_gridlove_248.jpg" />
                                     </a>
                                 </div>
                             </div>{" "}
