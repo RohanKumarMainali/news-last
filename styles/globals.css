@@ -2,6 +2,7 @@ body {
   background: #f3f3f3;
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat',sans-serif;
 }
 html{
   margin: 0;
@@ -151,7 +152,7 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #f4f7fc;
   margin: 0;
   padding: 0;
@@ -513,7 +514,7 @@ a {
 .entry-category {
   position: absolute;
   top: 20px;
-  left: 20px;
+  left: 72px;
 }
 
 .article-container {
@@ -1538,28 +1539,7 @@ input[type=submit] {
   margin-bottom: 20px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-blockquote,
-thead td,
-.comment-author b,
-q:before,
-#bbpress-forums .bbp-forum-title,
-#bbpress-forums .bbp-topic-permalink {
-  color: #111111;
-  font-family: 'Lato';
-  font-weight: 700;
-}
+
 
 .gridlove-footer {
   background: #111111;
@@ -1685,4 +1665,57 @@ q:before,
 .widget.gridlove_category_widget {
   padding: 0;
   margin-bottom: 22px;
+}
+
+
+.widget-title {
+  margin-bottom: 20px;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.no-js .owl-carousel {
+  display: block;
+}
+
+.gridlove-posts-widget {
+  min-height: 65px;
+}
+
+.owl-carousel {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.gridlove-posts-widget.owl-carousel .owl-stage-outer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+
+.owl-carousel .owl-stage-outer {
+  direction: ltr;
+}
+
+.owl-carousel .owl-stage {
+  position: relative;
+}
+
+.owl-carousel .owl-item {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+.entry-header a{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 0.7rem;
+  padding: 5%;
+  text-align: left;
+  float: left;
+  color: #5e5e5e;
 }

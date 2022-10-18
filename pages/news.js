@@ -158,8 +158,8 @@ function news() {
                   </p>
                   <blockquote className="wp-block-quote">
                     <p>
-                    दोर्जे लामा गुरुङले पनि स्वतन्त्र उम्मेदवारी दिएका थिए ।
-                    उनलाई उम्मेदवारी फिर्ता गराएर मनाङे निर्विरोध बनेका हुन् ।
+                      दोर्जे लामा गुरुङले पनि स्वतन्त्र उम्मेदवारी दिएका थिए ।
+                      उनलाई उम्मेदवारी फिर्ता गराएर मनाङे निर्विरोध बनेका हुन् ।
                     </p>
                   </blockquote>
                   <p>
@@ -173,7 +173,10 @@ function news() {
                     उनलाई उम्मेदवारी फिर्ता गराएर मनाङे निर्विरोध बनेका हुन् ।
                   </p>
                   <span id="more-151" />
-                  <h3> कानुन, सञ्चार तथा प्रदेश सभा मामिला मन्त्री विन्दुकुमार</h3>
+                  <h3>
+                    {" "}
+                    कानुन, सञ्चार तथा प्रदेश सभा मामिला मन्त्री विन्दुकुमार
+                  </h3>
                   <p>
                     कानुन, सञ्चार तथा प्रदेश सभा मामिला मन्त्री विन्दुकुमार
                     थापाले कास्की क्षेत्र नम्बर २ को ‘ख’ को टिकट पाएका छन् ।
@@ -204,10 +207,26 @@ function news() {
                     स्याङ्जा क्षेत्र नम्बर १ को (क) मा फेरि दोहोरिन चाहन्थे ।
                   </p>
                 </div>
-                <div className="gridlove-author">
-                  <div className="row">
-                    <div className="col-lg-2 col-md-2 col-sm-5">
-                      <img
+              </div>
+            </article>
+            <div
+              className="gridlove-author shadow mt-3"
+              style={{ backgroundColor: "white" }}
+            >
+              <div className="row p-4 ">
+                <div
+                  className="col-lg-2 col-md-2 col-sm-5"
+                  style={{
+                    borderRadius: "50%",
+                    height: "80px",
+                    width: "80px",
+
+                    backgroundImage: `url(https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-100x100.jpg)`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                >
+                  {/* <img
                         alt=""
                         src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-100x100.jpg"
                         srcSet="https://demo.mekshq.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-200x200.jpg 2x"
@@ -215,49 +234,53 @@ function news() {
                         loading="lazy"
                         width={100}
                         height={100}
-                      />{" "}
-                    </div>
-                    <div className="col-lg-10 col-md-10 col-sm-12">
-                      <h4>Patricia Callahan</h4>{" "}
-                      <div className="gridlove-author-desc">
-                        <p>
-                          This is an example of author bio/description. Beard
-                          fashion axe trust fund, post-ironic listicle
-                          scenester. Uniquely mesh maintainable users rather
-                          than plug-and-play testing procedures.
-                        </p>
-                      </div>
-                      <div className="gridlove-author-links">
-                        <a
-                          href="https://demo.mekshq.com/gridlove?author_name=meks1"
-                          className="gridlove-pill pill-large"
-                        >
-                          View all posts
-                        </a>
-                        <a
-                          href="https://mekshq.com/"
-                          target="_blank"
-                          rel="noopener"
-                          className="gridlove-sl-item bi bi-link mx-2"
-                        />
-                        <a
-                          href="https://www.facebook.com/mekshq"
-                          target="_blank"
-                          rel="noopener"
-                          className="gridlove-sl-item bi bi-facebook mx-2"
-                        />
-                        <a
-                          href="https://twitter.com/mekshq"
-                          target="_blank"
-                          rel="noopener"
-                          className="gridlove-sl-item bi bi-twitter mx-2"
-                        />{" "}
-                      </div>
-                    </div>
+                      />{" "} */}
+                </div>
+                <div className="col-lg-10 col-md-10 col-sm-12">
+                  <h4>Patricia Callahan</h4>{" "}
+                  <div className="gridlove-author-desc">
+                    <p>
+                      This is an example of author bio/description. Beard
+                      fashion axe trust fund, post-ironic listicle scenester.
+                      Uniquely mesh maintainable users rather than plug-and-play
+                      testing procedures.
+                    </p>
+                  </div>
+                  <div
+                    className="gridlove-author-links"
+                    style={{
+                      display: "flex",
+                      flexWrap: "wrap",
+                    }}
+                  >
+                    <a
+                      href="https://demo.mekshq.com/gridlove?author_name=meks1"
+                      className="gridlove-pill pill-large"
+                    >
+                      View all posts
+                    </a>
+                    <a
+                      href="https://mekshq.com/"
+                      target="_blank"
+                      rel="noopener"
+                      className="gridlove-sl-item bi bi-link mx-2"
+                    />
+                    <a
+                      href="https://www.facebook.com/mekshq"
+                      target="_blank"
+                      rel="noopener"
+                      className="gridlove-sl-item bi bi-facebook mx-2"
+                    />
+                    <a
+                      href="https://twitter.com/mekshq"
+                      target="_blank"
+                      rel="noopener"
+                      className="gridlove-sl-item bi bi-twitter mx-2"
+                    />{" "}
                   </div>
                 </div>
               </div>
-            </article>
+            </div>
             <div className="gridlove-ad">
               <a href="javascript:void(0);" className="mks-ep-trigger-open">
                 <img src="https://mekshq.com/static/gridlove/td_gridlove_728.jpg" />
@@ -439,6 +462,249 @@ function news() {
               </div>
               {/* #respond */}
             </div>
+
+            {/* recommended news */}
+            <div className="gridlove-related mt-4">
+              <div className="gridlove-module">
+                <div className="module-header">
+                  <div className="module-title">
+                    <h4 className="h2">You may also like</h4>
+                  </div>
+                </div>
+                <div className="row">
+                  {/*  */}
+
+                  <div className="col-lg-12 col-md-12 col-sm-12 layout-combo">
+                        <article className="gridlove-post d-flex gridlove-post-b gridlove-box  post-174 post type-post status-publish format-video has-post-thumbnail hentry category-entertainment post_format-post-format-video">
+                            <div className="entry-image">
+
+                                <img
+                                    width={385}
+                                    height={300}
+                                    src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_38-385x300.jpg"
+                                    className="attachment-gridlove-b8 size-gridlove-b8 wp-post-image"
+                                    alt=""
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div className="box-inner-ptbr box-col-b entry-sm-overlay">
+                                <div className="box-inner-ellipsis">
+                                    <div style={{ margin: 0, padding: 0, border: 0 }}>
+                                        <span style={{ fontSize: '10px', borderRadius: '22px' }} className='text-light  px-2 py-1 bg-warning'>ENTERTAINMENT</span>
+                                        <h2 className="entry-title h3 pt-2">
+                                            Are rock concerts really coming back into fashion?
+                                        </h2>
+                                        <div className="entry-content">
+                                            <p style={{height: 'auto'}}>
+                                                Monotonectally pursue backward-compatible ideas without empowered
+                                                imperatives. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="entry-meta">
+                                    <div className="meta-item meta-author">
+                                        <div className="coauthors">
+                                            <span className="vcard author">
+                                                <span className="fn">
+                                                    <img
+                                                        alt=""
+                                                        src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-24x24.jpg"
+                                                        className="avatar avatar-24 photo"
+                                                        height={24}
+                                                        width={24}
+                                                        loading="lazy"
+                                                    />
+                                                    Patricia Callahan
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div className="meta-item meta-views">38,671 views</div>
+                                </div>
+                            </div>
+                            <div style={{ position: 'absolute', top: '10px' }} className="right-inner-head px-4">
+                                <span style={{ fontSize: '10px', borderRadius: '22px' }} className='text-light px-2 py-1 bg-warning'>ENTERTAINMENT</span>
+                                <p className='mt-2 fw-bold text-light h5'>The world needs true geniuses now more than ever</p>
+                            </div>
+                            <div style={{ position: 'absolute', bottom: '30px' }} className="entry-meta-custom mx-4">
+                                <div className="meta-item meta-author me-2">
+                                    <div className="coauthors">
+                                        <span className="vcard author">
+                                            <span className="fn">
+                                                <img
+                                                    alt=""
+                                                    src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-24x24.jpg"
+                                                    className="avatar avatar-24 photo"
+                                                    height={24}
+                                                    width={24}
+                                                    loading="lazy"
+                                                />
+                                                Patricia Callahan
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="meta-item meta-views">38,671 views</div>
+                            </div>
+                        </article>
+                    </div>
+                    <div className="col-lg-12 col-md-12 col-sm-12 layout-combo">
+                        <article className="gridlove-post d-flex gridlove-post-b gridlove-box  post-174 post type-post status-publish format-video has-post-thumbnail hentry category-entertainment post_format-post-format-video">
+                            <div className="entry-image">
+
+                                <img
+                                    width={385}
+                                    height={300}
+                                    src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_38-385x300.jpg"
+                                    className="attachment-gridlove-b8 size-gridlove-b8 wp-post-image"
+                                    alt=""
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div className="box-inner-ptbr box-col-b entry-sm-overlay">
+                                <div className="box-inner-ellipsis">
+                                    <div style={{ margin: 0, padding: 0, border: 0 }}>
+                                        <span style={{ fontSize: '10px', borderRadius: '22px' }} className='text-light  px-2 py-1 bg-warning'>ENTERTAINMENT</span>
+                                        <h2 className="entry-title h3 pt-2">
+                                            Are rock concerts really coming back into fashion?
+                                        </h2>
+                                        <div className="entry-content">
+                                            <p style={{height: 'auto'}}>
+                                                Monotonectally pursue backward-compatible ideas without empowered
+                                                imperatives. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="entry-meta">
+                                    <div className="meta-item meta-author">
+                                        <div className="coauthors">
+                                            <span className="vcard author">
+                                                <span className="fn">
+                                                    <img
+                                                        alt=""
+                                                        src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-24x24.jpg"
+                                                        className="avatar avatar-24 photo"
+                                                        height={24}
+                                                        width={24}
+                                                        loading="lazy"
+                                                    />
+                                                    Patricia Callahan
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div className="meta-item meta-views">38,671 views</div>
+                                </div>
+                            </div>
+                            <div style={{ position: 'absolute', top: '10px' }} className="right-inner-head px-4">
+                                <span style={{ fontSize: '10px', borderRadius: '22px' }} className='text-light px-2 py-1 bg-warning'>ENTERTAINMENT</span>
+                                <p className='mt-2 fw-bold text-light h5'>The world needs true geniuses now more than ever</p>
+                            </div>
+                            <div style={{ position: 'absolute', bottom: '30px' }} className="entry-meta-custom mx-4">
+                                <div className="meta-item meta-author me-2">
+                                    <div className="coauthors">
+                                        <span className="vcard author">
+                                            <span className="fn">
+                                                <img
+                                                    alt=""
+                                                    src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-24x24.jpg"
+                                                    className="avatar avatar-24 photo"
+                                                    height={24}
+                                                    width={24}
+                                                    loading="lazy"
+                                                />
+                                                Patricia Callahan
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="meta-item meta-views">38,671 views</div>
+                            </div>
+                        </article>
+                    </div>
+                    <div className="col-lg-12 col-md-12 col-sm-12 layout-combo">
+                        <article className="gridlove-post d-flex gridlove-post-b gridlove-box  post-174 post type-post status-publish format-video has-post-thumbnail hentry category-entertainment post_format-post-format-video">
+                            <div className="entry-image">
+
+                                <img
+                                    width={385}
+                                    height={300}
+                                    src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_38-385x300.jpg"
+                                    className="attachment-gridlove-b8 size-gridlove-b8 wp-post-image"
+                                    alt=""
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div className="box-inner-ptbr box-col-b entry-sm-overlay">
+                                <div className="box-inner-ellipsis">
+                                    <div style={{ margin: 0, padding: 0, border: 0 }}>
+                                        <span style={{ fontSize: '10px', borderRadius: '22px' }} className='text-light  px-2 py-1 bg-warning'>ENTERTAINMENT</span>
+                                        <h2 className="entry-title h3 pt-2">
+                                            Are rock concerts really coming back into fashion?
+                                        </h2>
+                                        <div className="entry-content">
+                                            <p style={{height: 'auto'}}>
+                                                Monotonectally pursue backward-compatible ideas without empowered
+                                                imperatives. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="entry-meta">
+                                    <div className="meta-item meta-author">
+                                        <div className="coauthors">
+                                            <span className="vcard author">
+                                                <span className="fn">
+                                                    <img
+                                                        alt=""
+                                                        src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-24x24.jpg"
+                                                        className="avatar avatar-24 photo"
+                                                        height={24}
+                                                        width={24}
+                                                        loading="lazy"
+                                                    />
+                                                    Patricia Callahan
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div className="meta-item meta-views">38,671 views</div>
+                                </div>
+                            </div>
+                            <div style={{ position: 'absolute', top: '10px' }} className="right-inner-head px-4">
+                                <span style={{ fontSize: '10px', borderRadius: '22px' }} className='text-light px-2 py-1 bg-warning'>ENTERTAINMENT</span>
+                                <p className='mt-2 fw-bold text-light h5'>The world needs true geniuses now more than ever</p>
+                            </div>
+                            <div style={{ position: 'absolute', bottom: '30px' }} className="entry-meta-custom mx-4">
+                                <div className="meta-item meta-author me-2">
+                                    <div className="coauthors">
+                                        <span className="vcard author">
+                                            <span className="fn">
+                                                <img
+                                                    alt=""
+                                                    src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-24x24.jpg"
+                                                    className="avatar avatar-24 photo"
+                                                    height={24}
+                                                    width={24}
+                                                    loading="lazy"
+                                                />
+                                                Patricia Callahan
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="meta-item meta-views">38,671 views</div>
+                            </div>
+                        </article>
+                    </div>
+
+                  
+                  {/*  */}
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="grid-love-sidebar1">
@@ -512,6 +778,131 @@ function news() {
                     </a>
                   </li>
                 </ul>
+              </div>
+
+              {/* recent post */}
+              <div
+                id="gridlove_posts_widget-2"
+                className="widget gridlove-box gridlove_posts_widget"
+              >
+                <h4 className="widget-title">
+                  Recent posts
+                  <span className="gridlove-slider-controls" data-autoplay={0}>
+                    <div className="owl-prev" style={{}}>
+                      <i className="fa fa-chevron-left" />
+                    </div>
+                    <div className="owl-next" style={{}}>
+                      <i className="fa fa-chevron-right" />
+                    </div>
+                  </span>
+                </h4>
+                <div className="gridlove-posts-widget gridlove-widget-slider owl-carousel owl-theme owl-loaded">
+                  <div className="owl-stage-outer">
+                    <div
+                      className="owl-stage"
+                      style={{
+                        fontFamily: "Montserrat",
+                        transition: "all 0s ease 0s",
+                      }}
+                    >
+                      {/* recent post items */}
+                      <div
+                        className="owl-item active "
+                        style={{ width: "240px", marginRight: "0px" }}
+                      >
+                        <div className="gridlove-posts-widget-item-wrapper">
+                          <article className="m-3 d-flex post-192 post type-post status-publish format-standard has-post-thumbnail hentry category-lifestyle">
+                            <div className="entry-image">
+                              <a
+                                href="https://demo.mekshq.com/gridlove/?p=192"
+                                title="Everything you ever need to know about flowers"
+                              >
+                                <img
+                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_37-80x60.jpg"
+                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
+                                  alt=""
+                                  loading="lazy"
+                                  width={80}
+                                  height={60}
+                                />{" "}
+                              </a>
+                            </div>
+                            <div className="entry-header">
+                              <h6>
+                                <a href="https://demo.mekshq.com/gridlove/?p=192">
+                                  Everything you ever need to know about flowers
+                                </a>
+                              </h6>{" "}
+                            </div>
+                          </article>
+                          <article className="m-3 d-flex post-153 post type-post status-publish format-standard has-post-thumbnail hentry category-food-and tag-company tag-lifestyle-2 tag-magazine">
+                            <div className="entry-image">
+                              <a
+                                href="https://demo.mekshq.com/gridlove/?p=153"
+                                title="Coffee and lemons don’t go together that well"
+                              >
+                                <img
+                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_15-80x60.jpg"
+                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
+                                  alt=""
+                                  loading="lazy"
+                                  width={80}
+                                  height={60}
+                                />{" "}
+                              </a>
+                            </div>
+                            <div className="entry-header">
+                              <h6>
+                                <a href="https://demo.mekshq.com/gridlove/?p=153">
+                                  Coffee and lemons don’t go together that well
+                                </a>
+                              </h6>{" "}
+                            </div>
+                          </article>
+                          <article className="m-3 d-flex post-155 post type-post status-publish format-standard has-post-thumbnail hentry category-food-and tag-blog tag-company tag-entrepreneurship tag-magazine">
+                            <div className="entry-image">
+                              <a
+                                href="https://demo.mekshq.com/gridlove/?p=155"
+                                title="Did you know that plants actually have a secret life?"
+                              >
+                                <img
+                                  src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_02-80x60.jpg"
+                                  className="attachment-gridlove-thumbnail size-gridlove-thumbnail wp-post-image"
+                                  alt=""
+                                  loading="lazy"
+                                  width={80}
+                                  height={60}
+                                />{" "}
+                              </a>
+                            </div>
+                            <div className="entry-header">
+                              <h6>
+                                <a href="https://demo.mekshq.com/gridlove/?p=155">
+                                  Did you know that plants actually have a
+                                  secret life?
+                                </a>
+                              </h6>{" "}
+                            </div>
+                          </article>
+                        </div>
+                      </div>
+                      {/*  */}
+                    </div>
+                  </div>
+                  <div className="owl-controls">
+                    <div style={{}} className="owl-dots">
+                      <div className="owl-dot active">
+                        <span />
+                      </div>
+                      <div className="owl-dot">
+                        <span />
+                      </div>
+                      <div className="owl-dot">
+                        <span />
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               <div
