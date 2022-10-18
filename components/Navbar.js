@@ -9,6 +9,7 @@ import Image from 'next/image'
 import Head from 'next/head';
 import Script from "next/script";
 
+
 function Navbar() {
   const [active, setActive] = useState(`${Style.items}`);
   const [toggleIcon, setToggleIcon] = useState(`${Style.hamburger}`);
@@ -48,7 +49,7 @@ function Navbar() {
         <nav className={Style.navbar}>
           <div className={Style.logoContainer}>
             <ul>
-              <a href="/">
+              <Link href="/">
                 <Image
                   src="/images/logo.png"
                   alt="Golden Duck Enterprises Pvt. Ltd."
@@ -59,7 +60,7 @@ function Navbar() {
                   width="150px"
                   height="30px"
                 />
-              </a>
+              </Link>
             </ul>
           </div>
 

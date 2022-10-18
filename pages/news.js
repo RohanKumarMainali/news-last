@@ -262,20 +262,14 @@ function news() {
                     </a>
                     <a
                       href="https://mekshq.com/"
-                      target="_blank"
-                      rel="noopener"
                       className="gridlove-sl-item bi bi-link mx-2"
                     />
                     <a
                       href="https://www.facebook.com/mekshq"
-                      target="_blank"
-                      rel="noopener"
                       className="gridlove-sl-item bi bi-facebook mx-2"
                     />
                     <a
                       href="https://twitter.com/mekshq"
-                      target="_blank"
-                      rel="noopener"
                       className="gridlove-sl-item bi bi-twitter mx-2"
                     />{" "}
                   </div>
