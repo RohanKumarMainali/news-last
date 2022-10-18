@@ -14,6 +14,7 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper";
 import "swiper/css";
 import Editorpick from "../components/home/Editorpick";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
 
@@ -332,6 +333,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

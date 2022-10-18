@@ -1131,3 +1131,323 @@ body div.wpforms-container-full .wpforms-form .wpforms-page-button,
     overflow: hidden;
   }
 }
+
+/* footer css */
+
+.gridlove-footer {
+  background: #111111;
+  color: #ffffff;
+}
+
+.gridlove-footer .container {
+  position: relative;
+}
+
+.gridlove-footer .row {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.gridlove-footer [class^=col-lg-] {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.gridlove-footer .widget:first-child {
+  margin-top: 50px;
+}
+
+.gridlove-footer .widget:last-child {
+  margin-bottom: 50px;
+}
+
+.widget ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.mks_social_widget_ul li {
+  display: inline-block;
+  vertical-align: top;
+  border: none !important;
+  padding: 0;
+}
+
+.gridlove-footer [class^=col-lg-] {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.gridlove-footer .widget:first-child {
+  margin-top: 50px;
+}
+
+.gridlove-footer .widget-title {
+  color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select,
+textarea {
+  border-color: rgba(94, 94, 94, 0.2);
+}
+
+input[type=number],
+input[type=search],
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=tel],
+input[type=password],
+input[type=date],
+select,
+textarea {
+  border: 1px solid;
+  padding: 10px;
+  outline: 0;
+  line-height: 1;
+  width: 100%;
+  font-size: 100%;
+  margin: 0;
+  height: 40px;
+  vertical-align: baseline;
+  -webkit-transition: .2s all cubic-bezier(.4, 0, .2, 1);
+  transition: .2s all cubic-bezier(.4, 0, .2, 1);
+  border-radius: 2px;
+}
+
+input[type=number],
+input[type=search],
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=tel],
+input[type=password],
+input[type=date],
+textarea {
+  -webkit-appearance: none;
+}
+
+input,
+label,
+select,
+summary,
+textarea {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+.clear {
+  clear: both;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select,
+textarea {
+  border-color: rgba(94, 94, 94, 0.2);
+}
+
+.sub-menu .gridlove-button-search {
+  width: 100%;
+  margin-top: 7px;
+}
+
+.submit,
+.gridlove-button,
+.mks_autor_link_wrap a,
+.mks_read_more a,
+input[type="submit"],
+button[type="submit"],
+.gridlove-cat,
+.gridlove-pill,
+.gridlove-button-search,
+body div.wpforms-container-full .wpforms-form input[type=submit],
+body div.wpforms-container-full .wpforms-form button[type=submit],
+body div.wpforms-container-full .wpforms-form .wpforms-page-button,
+.add_to_cart_button {
+  color: #FFF;
+  background-color: #009cff;
+}
+
+.add_to_cart_button,
+.gridlove-button,
+.gridlove-button-search,
+.mks_autor_link_wrap a,
+.mks_read_more a,
+.submit,
+a.mks_button,
+body div.wpforms-container-full .wpforms-form .wpforms-page-button,
+body div.wpforms-container-full .wpforms-form button[type=submit],
+body div.wpforms-container-full .wpforms-form input[type=submit],
+button[type=submit],
+input[type=submit] {
+  height: 40px;
+  border: none;
+  border-radius: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+  padding: 14px 20px;
+  font-weight: 700;
+  -webkit-box-shadow: 0 3px 5px 0 rgb(0 0 0 / 10%), inset 0 0 0 transparent;
+  box-shadow: 0 3px 5px 0 rgb(0 0 0 / 10%), inset 0 0 0 transparent;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.gridlove-footer [class^=col-lg-] {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.gridlove-footer .widget_nav_menu .widget-title,
+.gridlove-footer .widget_nav_menu.widget,
+.gridlove-footer .widget_pages .widget-title,
+.gridlove-footer .widget_pages.widget {
+  padding: 0;
+}
+
+.gridlove-footer .widget-title {
+  color: #ffffff;
+}
+
+.widget,
+.gridlove-header-responsive .sub-menu,
+.gridlove-site-header .sub-menu {
+  font-size: 14px;
+}
+
+.widget ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.widget-title {
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+blockquote,
+thead td,
+.comment-author b,
+q:before,
+#bbpress-forums .bbp-forum-title,
+#bbpress-forums .bbp-topic-permalink {
+  color: #111111;
+  font-family: 'Lato';
+  font-weight: 700;
+}
+
+.gridlove-footer {
+  background: #111111;
+  color: #ffffff;
+}
+
+.widget ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.widget_nav_menu li,
+.widget_pages li {
+  position: relative;
+  z-index: 2;
+}
+
+.gridlove_category_widget .widget-title+ul.gridlove-count-color>li:first-child>a,
+.widget_archive>ul>li:first-child,
+.widget_categories>ul>li:first-child,
+.widget_meta>ul>li:first-child>a,
+.widget_nav_menu>div>ul>li:first-child>a,
+.widget_pages>ul>li:first-child>a,
+.widget_recent_comments>ul>li:first-child,
+.widget_recent_entries>ul>li:first-child {
+  padding-top: 0;
+}
+
+#menu-gridlove-footer li a {
+  color: white;
+}
+
+#menu-gridlove-footer li {
+  position: relative;
+  margin: 15px 0;
+  transition: .5s;
+}
+
+#menu-gridlove-footer li:nth-child(1)::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  bottom: -30%;
+  left: -2%;
+  height: 1px;
+  background-color: rgb(59, 59, 59);
+}
+#menu-gridlove-footer li:nth-child(2)::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  bottom: -30%;
+  left: -2%;
+  height: 1px;
+  background-color: rgb(59, 59, 59);
+}
+#menu-gridlove-footer li:nth-child(3)::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  bottom: -30%;
+  left: -2%;
+  height: 1px;
+  background-color: rgb(59, 59, 59);
+}
+#menu-gridlove-footer li:hover {
+  margin-left: 10px;
+}
+.gridlove-copyright{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin: 20px 0;
+}
+.gridlove-copyright::before {
+  position: absolute;
+  content: '';
+  top: 0%;
+  width: 8%;
+  left: 45%;
+  height: 1px;
+  background-color: rgb(59, 59, 59);
+  margin: auto;
+  display: block;
+}
