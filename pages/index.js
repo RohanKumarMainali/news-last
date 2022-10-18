@@ -37,7 +37,7 @@ const HomePage = () => {
         ></Script>
       <Navbar />
 
-      <div className="mt-20">
+      <div className="mt-20" style={{marginTop: '80px'}}>
         <Swiper
           navigation={true}
           loop={true}
@@ -61,21 +61,23 @@ const HomePage = () => {
 
             <div className="gridlove-cover-content pl-10 ">
               <div className="entry-header">
-                <div className="entry-category">
+                <div className="entry-category" style={{
+                  position: 'absolute',
+                  left: '0',
+                  top: '15%',
+                  color: 'white',
+                }}>
                   <a
                     href="https://demo.mekshq.com/gridlove/?cat=3"
                     className="gridlove-cat gridlove-cat-3"
+                    style={{color: 'white'}}
                   >
                     Lifestyle
                   </a>{" "}
                 </div>
                 <h2 className="entry-title h1">
-                  <a
-                    href="https://demo.mekshq.com/gridlove/?p=192"
-                    className="banner-h2"
-                  >
+                 
                     Everything you ever need to know about flowers
-                  </a>
                 </h2>
                 <div className="entry-content">
                   <p>
@@ -112,21 +114,25 @@ const HomePage = () => {
 
             <div className="gridlove-cover-content pl-10 ">
               <div className="entry-header">
-                <div className="entry-category">
+                <div className="entry-category"
+                style={{
+                  position: 'absolute',
+                  left: '0',
+                  top: '15%',
+                  color: 'white',
+                }}
+                >
                   <a
                     href="https://demo.mekshq.com/gridlove/?cat=3"
                     className="gridlove-cat gridlove-cat-3"
+                    style={{color: 'white'}}
                   >
                     Lifestyle
                   </a>{" "}
                 </div>
                 <h2 className="entry-title h1">
-                  <a
-                    href="https://demo.mekshq.com/gridlove/?p=192"
-                    className="banner-h2"
-                  >
+                 
                     Everything you ever need to know about flowers
-                  </a>
                 </h2>
                 <div className="entry-content">
                   <p>
