@@ -1,5 +1,11 @@
 body {
   background: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+html{
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -1438,7 +1444,7 @@ q:before,
   position: relative;
   margin: auto;
   display: block;
-  margin: 20px 0;
+  padding: 20px 0;
 }
 .gridlove-copyright::before {
   position: absolute;

@@ -40,9 +40,9 @@ const Footer = () => {
                             </div>
                             <div id="mks_social_widget-5" className="widget mks_social_widget">
                                 <ul className='d-flex'>
-                                    <li style={{fontSize:'30px', color:'#4267B2'}}><i class="bi bi-facebook me-3"></i></li>
-                                    <li style={{fontSize:'30px', color:'#E1306C'}}><i class="bi bi-instagram me-3"></i></li>
-                                    <li style={{fontSize:'30px', color:'#1DA1F2'}}><i class="bi bi-twitter"></i></li>
+                                    <li style={{ fontSize: '30px', color: '#618feb' }}><i class="bi bi-facebook me-3"></i></li>
+                                    <li style={{ fontSize: '30px', color: '#E1306C' }}><i class="bi bi-instagram me-3"></i></li>
+                                    <li style={{ fontSize: '30px', color: '#1DA1F2' }}><i class="bi bi-twitter"></i></li>
                                 </ul>
                             </div>
                         </div>
@@ -162,7 +162,7 @@ const Footer = () => {
                 </div>
                 <div className="gridlove-copyright py-4">
                     <div className="container text-light">
-                        <p style={{ textAlign: "center" ,fontSize:'12px' }}>
+                        <p style={{ textAlign: "center", fontSize: '12px' }}>
                             Copyright © 2022 · Created by{" "}
                             <a className='text-light' href="#" target="_blank">
                                 Meks
