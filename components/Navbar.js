@@ -64,28 +64,28 @@ function Navbar() {
             <ul className={active}>
               <li className={Style.item}>
                 <Link href="/" onClick={navToggle} smooth={true}>
-                  <span className="text-light"> Home</span>
+                  <span className=""> Home</span>
                 </Link>
               </li>
 
               <li className={Style.item}>
                 <Link href="/blogs" onClick={navToggle} smooth={true}>
-                  <span className="text-light"> Home</span>
+                  <span className=""> Home</span>
                 </Link>
               </li>
               <li className={Style.item}>
                 <Link href="/Portfolio" onClick={navToggle} smooth={true}>
-                  <span className="text-light"> Home</span>
+                  <span className=""> Home</span>
                 </Link>
               </li>
               <li className={Style.item}>
                 <Link href="/gallery" onClick={navToggle} smooth={true}>
-                  <span className="text-light"> Home</span>
+                  <span className=""> Home</span>
                 </Link>
               </li>
               <li className={Style.item}>
                 <Link href="/contact" onClick={navToggle} smooth={true}>
-                  <span className="text-light"> Home</span>
+                  <span className=""> Home</span>
                 </Link>
               </li>
             </ul>
