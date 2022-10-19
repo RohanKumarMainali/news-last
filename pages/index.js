@@ -9,6 +9,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
+import Script from "next/script";
 
 // import required modules
 import { Navigation } from "swiper";
@@ -27,15 +28,16 @@ const HomePage = () => {
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous"
         />
-        <script
+     
+      </Head>
+      <Script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
           crossorigin="anonymous"
-        ></script>
-      </Head>
+        ></Script>
       <Navbar />
 
-      <div className="mt-20">
+      <div className="mt-20" style={{marginTop: '80px'}}>
         <Swiper
           navigation={true}
           loop={true}
@@ -59,26 +61,28 @@ const HomePage = () => {
 
             <div className="gridlove-cover-content pl-10 ">
               <div className="entry-header">
-                <div className="entry-category">
+                <div className="entry-category" style={{
+                  position: 'absolute',
+                  left: '0',
+                  top: '15%',
+                  color: 'white',
+                }}>
                   <a
                     href="https://demo.mekshq.com/gridlove/?cat=3"
                     className="gridlove-cat gridlove-cat-3"
+                    style={{color: 'white'}}
                   >
                     Lifestyle
                   </a>{" "}
                 </div>
                 <h2 className="entry-title h1">
-                  <a
-                    href="https://demo.mekshq.com/gridlove/?p=192"
-                    className="banner-h2"
-                  >
+                 
                     Everything you ever need to know about flowers
-                  </a>
                 </h2>
                 <div className="entry-content">
                   <p>
                     Credibly empower enterprise wide mindshare for excellent
-                    "outside the box" thinking. Proactively mesh impactful meta
+                    outside the box thinking. Proactively mesh impactful meta
                     services rather than enterprise results. Professionally
                     generate end-to-end human capital...
                   </p>
@@ -110,26 +114,30 @@ const HomePage = () => {
 
             <div className="gridlove-cover-content pl-10 ">
               <div className="entry-header">
-                <div className="entry-category">
+                <div className="entry-category"
+                style={{
+                  position: 'absolute',
+                  left: '0',
+                  top: '15%',
+                  color: 'white',
+                }}
+                >
                   <a
                     href="https://demo.mekshq.com/gridlove/?cat=3"
                     className="gridlove-cat gridlove-cat-3"
+                    style={{color: 'white'}}
                   >
                     Lifestyle
                   </a>{" "}
                 </div>
                 <h2 className="entry-title h1">
-                  <a
-                    href="https://demo.mekshq.com/gridlove/?p=192"
-                    className="banner-h2"
-                  >
+                 
                     Everything you ever need to know about flowers
-                  </a>
                 </h2>
                 <div className="entry-content">
                   <p>
                     Credibly empower enterprise wide mindshare for excellent
-                    "outside the box" thinking. Proactively mesh impactful meta
+                    outside the box thinking. Proactively mesh impactful meta
                     services rather than enterprise results. Professionally
                     generate end-to-end human capital...
                   </p>
