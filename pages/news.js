@@ -84,7 +84,7 @@ function news() {
           </div>
           <div
             className="gridlove-content gridlove-single-layout-7"
-            style={{ width: "58%" }}
+           
           >
             <article
               id="post-151"
@@ -759,7 +759,7 @@ function news() {
           </div>
 
           <div className="grid-love-sidebar1">
-            <div className="gridlove-sidebar p-3" style={{ width: "100%" }}>
+            <div className="gridlove-sidebar p-3" >
               <div
                 id="gridlove_category_widget-6"
                 className="widget gridlove-box gridlove_category_widget"

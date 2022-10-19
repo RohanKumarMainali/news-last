@@ -2,7 +2,7 @@ body {
   background: #f3f3f3;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 html {
@@ -994,7 +994,7 @@ body .gridlove-share .meks_ess a {
   margin-top: -75px;
   position: relative;
   z-index: 999;
-  width: 70%;
+  width: 58%;
   top: 0;
   display: flex;
   flex-direction: column;
@@ -1677,7 +1677,7 @@ input[type=submit] {
 
 .widget-title {
   margin-bottom: 20px;
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .no-js .owl-carousel {
@@ -1718,11 +1718,31 @@ input[type=submit] {
   user-select: none;
 }
 
-.entry-header a{
-  font-family: 'Montserrat',sans-serif;
+.entry-header a {
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.7rem;
   padding: 5%;
   text-align: left;
   float: left;
   color: #5e5e5e;
+}
+
+@media screen and (max-width:1200px) {
+  .gridlove-single-layout-7{
+    width: 100%;
+  }
+  .grid-love-sidebar1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-love-sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gridlove-share-wrapper{
+    display: none;
+  }
 }
