@@ -211,6 +211,9 @@
     .hamburger {
         display: block;
     }
+    .hamItem{
+        background: #fff;
+    }
 
     .right ul {
         width: 65%;
