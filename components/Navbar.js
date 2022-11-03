@@ -50,15 +50,16 @@ function Navbar() {
           <div className={Style.logoContainer}>
             <ul>
               <Link href="/">
-                <Image
-                  src="/images/logo.png"
+                <img
+                style={{'marginTop':"15px"}}
+                  src="/images/logo-news.jpg"
                   alt="Golden Duck Enterprises Pvt. Ltd."
                   id="logo"
                   data-height-percentage="82"
                   data-actual-width="470"
                   data-actual-height="393"
                   width="150px"
-                  height="30px"
+                  height="60px"
                 />
               </Link>
             </ul>
@@ -74,12 +75,12 @@ function Navbar() {
 
               <li className={Style.item}>
                 <Link href="/blogs" onClick={navToggle} smooth={true}>
-                  <span className=""> Home</span>
+                  <span className=""> Blog</span>
                 </Link>
               </li>
               <li className={Style.item}>
-                <Link href="/Portfolio" onClick={navToggle} smooth={true}>
-                  <span className=""> Home</span>
+                <Link href="/category" onClick={navToggle} smooth={true}>
+                  <span className=""> Category</span>
                 </Link>
               </li>
               <li className={Style.item}>

@@ -12,32 +12,31 @@ const Footer = () => {
                     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
                     crossorigin="anonymous"
                 />
-             
+
             </Head>
 
             <Script
-                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-                    crossorigin="anonymous"
-                ></Script>
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"
+            ></Script>
             <div id="footer" className="gridlove-footer mt-5">
                 <div className="container">
                     <div className="row">
-                        <div style={{marginTop:'75px'}} className="col-lg-3 col-md-6 col-sm-12">
-                            <div  id="text-4" className="widget widget_text m-0 p-0 ">
+                        <div style={{ marginTop: '75px' }} className="col-lg-3 col-md-6 col-sm-12">
+                            <div id="text-4" className="widget widget_text m-0 p-0 ">
                                 {" "}
                                 <div className="textwidget">
                                     <p>
                                         <img
+                                        style={{'filter':'brightness(41)'}}
                                             width={159}
-                                            src="https://mekshq.com/static/gridlove/gridlove_logo_invert.png"
-                                            alt="Gridlove"
+                                            src="https://golden-duck.com/assets/images/asset%200.png"
+                                            alt="GoldenDuck"
                                         />
                                     </p>
                                     <p>
-                                        Gridlove is an attractive WordPress theme based on a grid
-                                        framework. With many layouts to choose from you’ll have your
-                                        website running in no time.
+                                        Golden Duck Enterprises Ptv. Ltd. is a multi-facet company with youth, innovation and tech adhered all over everything we do. We help you solve your needs and try to the friend to put your shoulders on.
                                     </p>
                                 </div>
                             </div>
@@ -119,7 +118,7 @@ const Footer = () => {
                             </div>{" "}
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div style={{marginTop: '75px'}} id="nav_menu-4" className="widget widget_nav_menu">
+                            <div style={{ marginTop: '75px' }} id="nav_menu-4" className="widget widget_nav_menu">
                                 <h4 className="widget-title">Help &amp; Support</h4>
                                 <div className="menu-gridlove-footer-container">
                                     <ul id="menu-gridlove-footer" className="menu">
@@ -145,7 +144,7 @@ const Footer = () => {
                                             id="menu-item-1962"
                                             className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1962"
                                         >
-                                            <a href="#">About Gridlove</a>
+                                            <a href="#">About GoldenDuck</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -156,7 +155,7 @@ const Footer = () => {
                                 {" "}
                                 <div className="textwidget">
                                     <a href="javascript:void(0);" className="mks-ep-trigger-open">
-                                        <img style={{width:'100%'}} src="https://mekshq.com/static/gridlove/td_gridlove_248.jpg" />
+                                        <img style={{ width: '100%' }} src="https://mekshq.com/static/gridlove/td_gridlove_248.jpg" />
                                     </a>
                                 </div>
                             </div>{" "}
