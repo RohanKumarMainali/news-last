@@ -199,8 +199,8 @@ const HomePage = () => {
                 return (
 
                   <div className="col-lg-4 col-md-6 col-sm-12 layout-combo" key={index}>
-                    <article className="gridlove-post gridlove-post-a gridlove-box  post-201 post type-post status-publish format-standard has-post-thumbnail hentry category-lifestyle">
-                      <div className="entry-image">
+                    <article className="gridlove-post gridlove-post-a gridlove-box  post-201 post type-post status-publish format-standard has-post-thumbnail hentry category-lifestyle"  key={index + 1}>
+                      <div className="entry-image"  key={index+2}>
                         <Link href="/news">
                           <img
                             width={370}
