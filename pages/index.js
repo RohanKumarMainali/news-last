@@ -198,7 +198,7 @@ const HomePage = () => {
               news?.map((data, index) => {
                 return (
 
-                  <div className="col-lg-4 col-md-6 col-sm-12 layout-combo">
+                  <div className="col-lg-4 col-md-6 col-sm-12 layout-combo" key={index}>
                     <article className="gridlove-post gridlove-post-a gridlove-box  post-201 post type-post status-publish format-standard has-post-thumbnail hentry category-lifestyle">
                       <div className="entry-image">
                         <Link href="/news">
